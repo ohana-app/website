@@ -11,9 +11,9 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/fenris/Desktop/Codesmith/website/sidebars.js",
-          "contentPath": "/Users/fenris/Desktop/Codesmith/website/docs",
-          "contentPathLocalized": "/Users/fenris/Desktop/Codesmith/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/lawrencehan/website/sidebars.js",
+          "contentPath": "/Users/lawrencehan/website/docs",
+          "contentPathLocalized": "/Users/lawrencehan/website/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "Introduction/introduction-to-ohana",
           "sidebars": {
             "tutorialSidebar": [

@@ -111,7 +111,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/fenris/Desktop/Codesmith/website/sidebars.js",
+          "sidebarPath": "/Users/lawrencehan/website/sidebars.js",
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "blog": {
@@ -119,7 +119,7 @@ export default {
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "theme": {
-          "customCss": "/Users/fenris/Desktop/Codesmith/website/src/css/custom.css"
+          "customCss": "/Users/lawrencehan/website/src/css/custom.css"
         }
       }
     ]
