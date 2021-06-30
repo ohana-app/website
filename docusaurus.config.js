@@ -26,7 +26,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Introduction',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/meet-the-team', label: 'Meet The Team', position: 'right'},
@@ -108,5 +108,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
   ],
 };
