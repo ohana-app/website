@@ -98,18 +98,25 @@ export default [
   exact: true,
 },
 {
+<<<<<<< HEAD
+=======
   path: '/introduction',
   component: ComponentCreator('/introduction','ced'),
   exact: true,
 },
 {
+>>>>>>> main
   path: '/markdown-page',
   component: ComponentCreator('/markdown-page','be1'),
   exact: true,
 },
 {
   path: '/meet-the-team',
+<<<<<<< HEAD
+  component: ComponentCreator('/meet-the-team','178'),
+=======
   component: ComponentCreator('/meet-the-team','ff8'),
+>>>>>>> main
   exact: true,
 },
 {
@@ -119,7 +126,11 @@ export default [
 },
 {
   path: '/docs',
+<<<<<<< HEAD
+  component: ComponentCreator('/docs','831'),
+=======
   component: ComponentCreator('/docs','2d7'),
+>>>>>>> main
   
   routes: [
 {
@@ -133,6 +144,40 @@ export default [
   exact: true,
 },
 {
+<<<<<<< HEAD
+  path: '/docs/Introduction/community',
+  component: ComponentCreator('/docs/Introduction/community','d03'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/crash-course',
+  component: ComponentCreator('/docs/Introduction/crash-course','fa5'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/features',
+  component: ComponentCreator('/docs/Introduction/features','4a7'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/how-it-works',
+  component: ComponentCreator('/docs/Introduction/how-it-works','130'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/introduction-to-ohana',
+  component: ComponentCreator('/docs/Introduction/introduction-to-ohana','0ea'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/more-resources',
+  component: ComponentCreator('/docs/Introduction/more-resources','c63'),
+  exact: true,
+},
+{
+  path: '/docs/Introduction/why-use-us',
+  component: ComponentCreator('/docs/Introduction/why-use-us','87c'),
+=======
   path: '/docs/tutorial-basics/congratulations',
   component: ComponentCreator('/docs/tutorial-basics/congratulations','7ef'),
   exact: true,
@@ -160,6 +205,7 @@ export default [
 {
   path: '/docs/tutorial-basics/markdown-features',
   component: ComponentCreator('/docs/tutorial-basics/markdown-features','f90'),
+>>>>>>> main
   exact: true,
 },
 {

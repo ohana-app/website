@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Introduction/community",
+  "id": "Introduction/community",
+  "isDocsHomePage": false,
+  "title": "Community",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Introduction/community.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/community",
+  "permalink": "/docs/Introduction/community",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/community.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Community"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Features",
+    "permalink": "/docs/Introduction/features"
+  },
+  "next": {
+    "title": "More Resources",
+    "permalink": "/docs/Introduction/more-resources"
+  }
+}

@@ -17,8 +17,13 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+<<<<<<< HEAD
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+=======
     "title": "Congratulations!",
     "permalink": "/docs/tutorial-basics/congratulations"
+>>>>>>> main
   },
   "next": {
     "title": "Manage Docs Versions",

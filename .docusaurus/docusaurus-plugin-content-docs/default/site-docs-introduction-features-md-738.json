@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Introduction/features",
+  "id": "Introduction/features",
+  "isDocsHomePage": false,
+  "title": "Features",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/Introduction/features.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/features",
+  "permalink": "/docs/Introduction/features",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/features.md",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Features"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Crash Course",
+    "permalink": "/docs/Introduction/crash-course"
+  },
+  "next": {
+    "title": "Community",
+    "permalink": "/docs/Introduction/community"
+  }
+}

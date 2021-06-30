@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Introduction/congratulations",
+  "id": "Introduction/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Introduction/congratulations.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/congratulations",
+  "permalink": "/docs/Introduction/congratulations",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/congratulations.md",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Features",
+    "permalink": "/docs/Introduction/features"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Introduction/markdown-features"
+  }
+}

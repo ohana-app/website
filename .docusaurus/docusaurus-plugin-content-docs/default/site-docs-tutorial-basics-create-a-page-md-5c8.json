@@ -10,6 +10,20 @@
   "permalink": "/docs/tutorial-basics/create-a-page",
   "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/create-a-page.md",
   "version": "current",
+<<<<<<< HEAD
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Hi!",
+    "permalink": "/docs/hello"
+=======
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
@@ -22,5 +36,6 @@
   "next": {
     "title": "Create a Document",
     "permalink": "/docs/tutorial-basics/create-a-document"
+>>>>>>> main
   }
 }

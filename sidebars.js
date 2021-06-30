@@ -24,3 +24,27 @@ module.exports = {
   ],
    */
 };
+
+
+// navbar: {
+//   title: 'Ohana',
+//   logo: {
+//     alt: 'Ohana Logo',
+//     src: 'img/docusaurus.png',
+//   },
+//   items: [
+//     {
+//       type: 'doc',
+//       docId: 'intro',
+//       position: 'left',
+//       label: 'Tutorial',
+//     },
+//     {to: '/blog', label: 'Blog', position: 'left'},
+//     {to: '/meet-the-team', label: 'Meet The Team', position: 'right'},
+//     {
+//       href: 'https://github.com/oslabs-beta/ohana',
+//       label: 'GitHub',
+//       position: 'right',
+//     },
+//   ],
+// },

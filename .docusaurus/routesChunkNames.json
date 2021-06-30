@@ -128,23 +128,36 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-286-e55"
   },
+<<<<<<< HEAD
+=======
   "/introduction-ced": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---introduction-58-b-d90"
   },
+>>>>>>> main
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
+<<<<<<< HEAD
+  "/meet-the-team-178": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---meet-the-team-8-c-3-8ba"
+=======
   "/meet-the-team-ff8": {
     "component": "component---site-src-pages-meet-the-team-jse-1-c-06c",
     "config": "config---5-e-9-4f3"
+>>>>>>> main
   },
   "/my-markdown-page-81e": {
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---my-markdown-page-031-4dc"
   },
+<<<<<<< HEAD
+  "/docs-831": {
+=======
   "/docs-2d7": {
+>>>>>>> main
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -156,6 +169,35 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
+<<<<<<< HEAD
+  "/docs/Introduction/community-d03": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-community-017-6c7"
+  },
+  "/docs/Introduction/crash-course-fa5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-crash-coursef-5-a-202"
+  },
+  "/docs/Introduction/features-4a7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-features-738-6f8"
+  },
+  "/docs/Introduction/how-it-works-130": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-how-it-worksda-3-a51"
+  },
+  "/docs/Introduction/introduction-to-ohana-0ea": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-introduction-to-ohana-8-ac-a00"
+  },
+  "/docs/Introduction/more-resources-c63": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-more-resourcesf-8-d-324"
+  },
+  "/docs/Introduction/why-use-us-87c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-why-use-us-0-dc-096"
+=======
   "/docs/tutorial-basics/congratulations-7ef": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-basics-congratulations-822-958"
@@ -179,6 +221,7 @@
   "/docs/tutorial-basics/markdown-features-f90": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+>>>>>>> main
   },
   "/docs/tutorial-extras/manage-docs-versions-d64": {
     "component": "component---theme-doc-item-178-a40",

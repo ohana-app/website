@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Introduction/why-use-us",
+  "id": "Introduction/why-use-us",
+  "isDocsHomePage": false,
+  "title": "Why Use Us?",
+  "description": "Why pay more for the same thing? Ohana offers the same functionality included within paid services like Loft and packages it with an open source platform, allowing your team to customize and scale to your company's needs.",
+  "source": "@site/docs/Introduction/why-use-us.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/why-use-us",
+  "permalink": "/docs/Introduction/why-use-us",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/why-use-us.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Why Use Us?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How It Works",
+    "permalink": "/docs/Introduction/how-it-works"
+  },
+  "next": {
+    "title": "Crash Course",
+    "permalink": "/docs/Introduction/crash-course"
+  }
+}
