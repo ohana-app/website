@@ -584,9 +584,9 @@
         "source": "@site/src/pages/markdown-page.md"
       },
       {
-        "type": "mdx",
+        "type": "jsx",
         "permalink": "/meet-the-team",
-        "source": "@site/src/pages/meet-the-team.md"
+        "source": "@site/src/pages/meet-the-team.js"
       },
       {
         "type": "mdx",

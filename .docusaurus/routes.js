@@ -104,7 +104,7 @@ export default [
 },
 {
   path: '/meet-the-team',
-  component: ComponentCreator('/meet-the-team','178'),
+  component: ComponentCreator('/meet-the-team','ff8'),
   exact: true,
 },
 {
