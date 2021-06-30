@@ -2,43 +2,24 @@
 sidebar_position: 4
 title: Crash Course
 ---
-
-# Create a Page
-
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
-
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
-
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
+# Administrator Overview
+# Overview
+- Generate the variables needed to initialize your Kubernetes flow:
+  - Database URI
+  - Environment variables within the Dockerfile
+    - Docker Image
+    - gcloud account (typically in the form of an IAM admin service account)
+    - gcloud credentials via key file .json
+    - Project ID
+    - Cluster Zone or Region
 ```
-
-A new page is now available at `http://localhost:3000/my-react-page`.
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
+# Set arguments
+## Add gcloud service account here
+ARG gcloud_account=<service account here>
+## Add gcloud account key file path here
+ARG key_path=<include .json file here>
+## Add GKE project_id here
+ARG project_id=<your project id>
+## Add GKE Cluster zone here
+ARG cluster_zone=us-west1-a
 ```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
