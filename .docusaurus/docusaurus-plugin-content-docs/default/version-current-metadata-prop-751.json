@@ -7,6 +7,7 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+<<<<<<< HEAD
         "type": "category",
         "label": "Introduction",
         "items": [
@@ -44,17 +45,59 @@
             "type": "link",
             "label": "More Resources",
             "href": "/docs/Introduction/more-resources"
+=======
+        "type": "link",
+        "label": "Tutorial Intro",
+        "href": "/docs/intro"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Page",
+            "href": "/docs/tutorial-basics/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "Create a Document",
+            "href": "/docs/tutorial-basics/create-a-document"
+          },
+          {
+            "type": "link",
+            "label": "Create a Blog Post",
+            "href": "/docs/tutorial-basics/create-a-blog-post"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/docs/tutorial-basics/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Deploy your site",
+            "href": "/docs/tutorial-basics/deploy-your-site"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/docs/tutorial-basics/congratulations"
+>>>>>>> main
           }
         ],
         "collapsed": true
       },
       {
         "type": "link",
+<<<<<<< HEAD
         "label": "Tutorial Intro",
         "href": "/docs/intro"
       },
       {
         "type": "link",
+=======
+>>>>>>> main
         "label": "Hi!",
         "href": "/docs/hello"
       },
@@ -80,6 +123,7 @@
   "permalinkToSidebar": {
     "/docs/hello": "tutorialSidebar",
     "/docs/intro": "tutorialSidebar",
+<<<<<<< HEAD
     "/docs/Introduction/community": "tutorialSidebar",
     "/docs/Introduction/crash-course": "tutorialSidebar",
     "/docs/Introduction/features": "tutorialSidebar",
@@ -87,6 +131,14 @@
     "/docs/Introduction/introduction-to-ohana": "tutorialSidebar",
     "/docs/Introduction/more-resources": "tutorialSidebar",
     "/docs/Introduction/why-use-us": "tutorialSidebar",
+=======
+    "/docs/tutorial-basics/congratulations": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
+    "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
+    "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
+    "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
+>>>>>>> main
     "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
     "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
   }

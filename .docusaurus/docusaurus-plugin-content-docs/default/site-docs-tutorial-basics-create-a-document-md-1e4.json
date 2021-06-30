@@ -16,8 +16,13 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+<<<<<<< HEAD
     "title": "Tutorial Intro",
     "permalink": "/docs/intro"
+=======
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+>>>>>>> main
   },
   "next": {
     "title": "Create a Blog Post",

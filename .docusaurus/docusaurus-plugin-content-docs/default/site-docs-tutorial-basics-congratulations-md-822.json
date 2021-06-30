@@ -20,7 +20,12 @@
     "permalink": "/docs/tutorial-basics/deploy-your-site"
   },
   "next": {
+<<<<<<< HEAD
     "title": "Create a Page",
     "permalink": "/docs/tutorial-basics/create-a-page"
+=======
+    "title": "Hi!",
+    "permalink": "/docs/hello"
+>>>>>>> main
   }
 }

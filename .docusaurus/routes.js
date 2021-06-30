@@ -98,13 +98,25 @@ export default [
   exact: true,
 },
 {
+<<<<<<< HEAD
+=======
+  path: '/introduction',
+  component: ComponentCreator('/introduction','ced'),
+  exact: true,
+},
+{
+>>>>>>> main
   path: '/markdown-page',
   component: ComponentCreator('/markdown-page','be1'),
   exact: true,
 },
 {
   path: '/meet-the-team',
+<<<<<<< HEAD
   component: ComponentCreator('/meet-the-team','178'),
+=======
+  component: ComponentCreator('/meet-the-team','ff8'),
+>>>>>>> main
   exact: true,
 },
 {
@@ -114,7 +126,11 @@ export default [
 },
 {
   path: '/docs',
+<<<<<<< HEAD
   component: ComponentCreator('/docs','831'),
+=======
+  component: ComponentCreator('/docs','2d7'),
+>>>>>>> main
   
   routes: [
 {
@@ -128,6 +144,7 @@ export default [
   exact: true,
 },
 {
+<<<<<<< HEAD
   path: '/docs/Introduction/community',
   component: ComponentCreator('/docs/Introduction/community','d03'),
   exact: true,
@@ -160,6 +177,35 @@ export default [
 {
   path: '/docs/Introduction/why-use-us',
   component: ComponentCreator('/docs/Introduction/why-use-us','87c'),
+=======
+  path: '/docs/tutorial-basics/congratulations',
+  component: ComponentCreator('/docs/tutorial-basics/congratulations','7ef'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-basics/create-a-blog-post',
+  component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','2c8'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-basics/create-a-document',
+  component: ComponentCreator('/docs/tutorial-basics/create-a-document','f0d'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-basics/create-a-page',
+  component: ComponentCreator('/docs/tutorial-basics/create-a-page','ca5'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-basics/deploy-your-site',
+  component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','508'),
+  exact: true,
+},
+{
+  path: '/docs/tutorial-basics/markdown-features',
+  component: ComponentCreator('/docs/tutorial-basics/markdown-features','f90'),
+>>>>>>> main
   exact: true,
 },
 {
