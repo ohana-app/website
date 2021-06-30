@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Introduction/getting-started",
+  "id": "Introduction/getting-started",
+  "isDocsHomePage": false,
+  "title": "Introduction to Ohana",
+  "description": "\"Ohana is a full-stack management tool that abstracts self-service Kubernetess workflow for engineering and DevOps teams by giving developers the freedom to create namespaces and virtual clusters on-demand through RBAC, which improves deployment times, decreases costs, and allows for multi-tenancy within a cluster.\"",
+  "source": "@site/docs/Introduction/getting-started.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/getting-started",
+  "permalink": "/docs/Introduction/getting-started",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/getting-started.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction to Ohana"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "How It Works",
+    "permalink": "/docs/Introduction/how-it-works"
+  }
+}

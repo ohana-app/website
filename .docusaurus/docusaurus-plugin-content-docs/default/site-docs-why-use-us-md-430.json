@@ -1,0 +1,23 @@
+{
+  "unversionedId": "why-use-us",
+  "id": "why-use-us",
+  "isDocsHomePage": false,
+  "title": "Why Use Us?",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/why-use-us.md",
+  "sourceDirName": ".",
+  "slug": "/why-use-us",
+  "permalink": "/docs/why-use-us",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/why-use-us.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Why Use Us?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

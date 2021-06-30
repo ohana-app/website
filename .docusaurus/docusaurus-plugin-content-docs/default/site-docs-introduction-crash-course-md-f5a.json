@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Introduction/crash-course",
+  "id": "Introduction/crash-course",
+  "isDocsHomePage": false,
+  "title": "Crash Course",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/Introduction/crash-course.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/crash-course",
+  "permalink": "/docs/Introduction/crash-course",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/crash-course.md",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Crash Course"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why Use Us?",
+    "permalink": "/docs/Introduction/why-use-us"
+  },
+  "next": {
+    "title": "Features",
+    "permalink": "/docs/Introduction/features"
+  }
+}

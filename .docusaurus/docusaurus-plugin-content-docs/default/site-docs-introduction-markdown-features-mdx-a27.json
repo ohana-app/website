@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Introduction/markdown-features",
+  "id": "Introduction/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/Introduction/markdown-features.mdx",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/markdown-features",
+  "permalink": "/docs/Introduction/markdown-features",
+  "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/markdown-features.mdx",
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/Introduction/Community"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}

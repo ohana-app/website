@@ -1,0 +1,93 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Introduction",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction to Ohana",
+            "href": "/docs/Introduction/introduction-to-ohana"
+          },
+          {
+            "type": "link",
+            "label": "How It Works",
+            "href": "/docs/Introduction/how-it-works"
+          },
+          {
+            "type": "link",
+            "label": "Why Use Us?",
+            "href": "/docs/Introduction/why-use-us"
+          },
+          {
+            "type": "link",
+            "label": "Crash Course",
+            "href": "/docs/Introduction/crash-course"
+          },
+          {
+            "type": "link",
+            "label": "Features",
+            "href": "/docs/Introduction/features"
+          },
+          {
+            "type": "link",
+            "label": "Community",
+            "href": "/docs/Introduction/community"
+          },
+          {
+            "type": "link",
+            "label": "More Resources",
+            "href": "/docs/Introduction/more-resources"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "type": "link",
+        "label": "Tutorial Intro",
+        "href": "/docs/intro"
+      },
+      {
+        "type": "link",
+        "label": "Hi!",
+        "href": "/docs/hello"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/hello": "tutorialSidebar",
+    "/docs/intro": "tutorialSidebar",
+    "/docs/Introduction/community": "tutorialSidebar",
+    "/docs/Introduction/crash-course": "tutorialSidebar",
+    "/docs/Introduction/features": "tutorialSidebar",
+    "/docs/Introduction/how-it-works": "tutorialSidebar",
+    "/docs/Introduction/introduction-to-ohana": "tutorialSidebar",
+    "/docs/Introduction/more-resources": "tutorialSidebar",
+    "/docs/Introduction/why-use-us": "tutorialSidebar",
+    "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
+    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+  }
+}
