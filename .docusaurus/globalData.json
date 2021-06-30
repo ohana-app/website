@@ -8,95 +8,41 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-<<<<<<< HEAD
-          "mainDocId": "Introduction/introduction-to-ohana",
-=======
-          "mainDocId": "intro",
->>>>>>> main
+          "mainDocId": "ohana",
           "docs": [
             {
-              "id": "hello",
-              "path": "/docs/hello",
+              "id": "getting-started/community",
+              "path": "/docs/getting-started/community",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "getting-started/crash-course",
+              "path": "/docs/getting-started/crash-course",
               "sidebar": "tutorialSidebar"
             },
             {
-<<<<<<< HEAD
-              "id": "Introduction/community",
-              "path": "/docs/Introduction/community",
+              "id": "getting-started/features",
+              "path": "/docs/getting-started/features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/crash-course",
-              "path": "/docs/Introduction/crash-course",
+              "id": "getting-started/setup",
+              "path": "/docs/getting-started/setup",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/features",
-              "path": "/docs/Introduction/features",
+              "id": "more-resources",
+              "path": "/docs/more-resources",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/how-it-works",
-              "path": "/docs/Introduction/how-it-works",
+              "id": "ohana",
+              "path": "/docs/ohana",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/introduction-to-ohana",
-              "path": "/docs/Introduction/introduction-to-ohana",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Introduction/more-resources",
-              "path": "/docs/Introduction/more-resources",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Introduction/why-use-us",
-              "path": "/docs/Introduction/why-use-us",
-=======
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
->>>>>>> main
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "why-use-us",
+              "path": "/docs/why-use-us",
               "sidebar": "tutorialSidebar"
             }
           ]

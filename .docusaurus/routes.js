@@ -98,25 +98,13 @@ export default [
   exact: true,
 },
 {
-<<<<<<< HEAD
-=======
-  path: '/introduction',
-  component: ComponentCreator('/introduction','ced'),
-  exact: true,
-},
-{
->>>>>>> main
   path: '/markdown-page',
   component: ComponentCreator('/markdown-page','be1'),
   exact: true,
 },
 {
   path: '/meet-the-team',
-<<<<<<< HEAD
-  component: ComponentCreator('/meet-the-team','178'),
-=======
   component: ComponentCreator('/meet-the-team','ff8'),
->>>>>>> main
   exact: true,
 },
 {
@@ -126,96 +114,42 @@ export default [
 },
 {
   path: '/docs',
-<<<<<<< HEAD
-  component: ComponentCreator('/docs','831'),
-=======
-  component: ComponentCreator('/docs','2d7'),
->>>>>>> main
+  component: ComponentCreator('/docs','d86'),
   
   routes: [
 {
-  path: '/docs/hello',
-  component: ComponentCreator('/docs/hello','bc1'),
+  path: '/docs/getting-started/community',
+  component: ComponentCreator('/docs/getting-started/community','e73'),
   exact: true,
 },
 {
-  path: '/docs/intro',
-  component: ComponentCreator('/docs/intro','e84'),
+  path: '/docs/getting-started/crash-course',
+  component: ComponentCreator('/docs/getting-started/crash-course','f33'),
   exact: true,
 },
 {
-<<<<<<< HEAD
-  path: '/docs/Introduction/community',
-  component: ComponentCreator('/docs/Introduction/community','d03'),
+  path: '/docs/getting-started/features',
+  component: ComponentCreator('/docs/getting-started/features','643'),
   exact: true,
 },
 {
-  path: '/docs/Introduction/crash-course',
-  component: ComponentCreator('/docs/Introduction/crash-course','fa5'),
+  path: '/docs/getting-started/setup',
+  component: ComponentCreator('/docs/getting-started/setup','2bb'),
   exact: true,
 },
 {
-  path: '/docs/Introduction/features',
-  component: ComponentCreator('/docs/Introduction/features','4a7'),
+  path: '/docs/more-resources',
+  component: ComponentCreator('/docs/more-resources','ab5'),
   exact: true,
 },
 {
-  path: '/docs/Introduction/how-it-works',
-  component: ComponentCreator('/docs/Introduction/how-it-works','130'),
+  path: '/docs/ohana',
+  component: ComponentCreator('/docs/ohana','76f'),
   exact: true,
 },
 {
-  path: '/docs/Introduction/introduction-to-ohana',
-  component: ComponentCreator('/docs/Introduction/introduction-to-ohana','0ea'),
-  exact: true,
-},
-{
-  path: '/docs/Introduction/more-resources',
-  component: ComponentCreator('/docs/Introduction/more-resources','c63'),
-  exact: true,
-},
-{
-  path: '/docs/Introduction/why-use-us',
-  component: ComponentCreator('/docs/Introduction/why-use-us','87c'),
-=======
-  path: '/docs/tutorial-basics/congratulations',
-  component: ComponentCreator('/docs/tutorial-basics/congratulations','7ef'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/create-a-blog-post',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','2c8'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/create-a-document',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-document','f0d'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/create-a-page',
-  component: ComponentCreator('/docs/tutorial-basics/create-a-page','ca5'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/deploy-your-site',
-  component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','508'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-basics/markdown-features',
-  component: ComponentCreator('/docs/tutorial-basics/markdown-features','f90'),
->>>>>>> main
-  exact: true,
-},
-{
-  path: '/docs/tutorial-extras/manage-docs-versions',
-  component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','d64'),
-  exact: true,
-},
-{
-  path: '/docs/tutorial-extras/translate-your-site',
-  component: ComponentCreator('/docs/tutorial-extras/translate-your-site','16a'),
+  path: '/docs/why-use-us',
+  component: ComponentCreator('/docs/why-use-us','c4e'),
   exact: true,
 },
 ]

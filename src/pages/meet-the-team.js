@@ -5,6 +5,8 @@ import { IconButton } from '@material-ui/core'
 export default function MyReactPage() {
   const [githubLogo, setGithubLogo] = useState("../build/img/github-white.png")
   useEffect(() => {
+    if (document.getElementsByTagName('html')[0].attributes[1].nodeValue === 'dark') setGithubLogo("../build/img/github-white.png");
+    else setGithubLogo("../build/img/github-black.png")
     window.addEventListener('click', () => {
       if (document.getElementsByTagName('html')[0].attributes[1].nodeValue === 'dark') setGithubLogo("../build/img/github-white.png");
       else setGithubLogo("../build/img/github-black.png")
@@ -55,11 +57,9 @@ export default function MyReactPage() {
           <i>Software Engineer</i>
           <br/>
         <div>
-          <a href={person.github} target="_blank">
-            <IconButton color="secondary">
+            <IconButton color="secondary" onClick={()=>window.open(person.github, '_blank')}>
               <img className="logos" src={githubLogo}/>
             </IconButton>
-          </a>
           <a href={person.linkedIn} target="_blank">
             <IconButton color="secondary">
               <img className="logos" src="../build/img/linkedin.png"/>
@@ -75,7 +75,7 @@ export default function MyReactPage() {
   return (
     <Layout>
       <div id="meet-the-team">
-        <center><h1>The Ohana Team</h1></center>
+        <center><h1 id="ohana-team">The Ohana Team</h1></center>
         <div id="cards-container">
           {cards}
         </div>

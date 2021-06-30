@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "How It Works",
-    "permalink": "/docs/Introduction/how-it-works"
+    "title": "Getting Started",
+    "permalink": "/docs/Introduction/getting-started"
   }
 }

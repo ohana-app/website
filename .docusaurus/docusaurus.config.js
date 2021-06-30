@@ -18,13 +18,9 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "ohana",
           "position": "left",
-<<<<<<< HEAD
-          "label": "Introduction",
-=======
-          "label": "Tutorial",
->>>>>>> main
+          "label": "Guide",
           "activeSidebarClassName": "navbar__link--active"
         },
         {
@@ -115,11 +111,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-<<<<<<< HEAD
-          "sidebarPath": "/Users/fenris/Desktop/Codesmith/website/sidebars.js",
-=======
           "sidebarPath": "/Users/lawrencehan/website/sidebars.js",
->>>>>>> main
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "blog": {
@@ -127,21 +119,14 @@ export default {
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "theme": {
-<<<<<<< HEAD
-          "customCss": "/Users/fenris/Desktop/Codesmith/website/src/css/custom.css"
-=======
           "customCss": "/Users/lawrencehan/website/src/css/custom.css"
->>>>>>> main
         }
       }
     ]
   ],
-<<<<<<< HEAD
   "stylesheets": [
     "https://fonts.googleapis.com/icon?family=Material+Icons"
   ],
-=======
->>>>>>> main
   "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",

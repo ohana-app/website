@@ -1,19 +1,20 @@
 {
-  "unversionedId": "Introduction/how-it-works",
-  "id": "Introduction/how-it-works",
+  "unversionedId": "Introduction/getting-started",
+  "id": "Introduction/getting-started",
   "isDocsHomePage": false,
-  "title": "How It Works",
+  "title": "Getting Started",
   "description": "- Download and check out the codebase from//github.com/oslabs-beta/ohana`",
   "source": "@site/docs/Introduction/how-it-works.md",
   "sourceDirName": "Introduction",
-  "slug": "/Introduction/how-it-works",
-  "permalink": "/docs/Introduction/how-it-works",
+  "slug": "/Introduction/getting-started",
+  "permalink": "/docs/Introduction/getting-started",
   "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/how-it-works.md",
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "How It Works"
+    "title": "Getting Started",
+    "id": "getting-started"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

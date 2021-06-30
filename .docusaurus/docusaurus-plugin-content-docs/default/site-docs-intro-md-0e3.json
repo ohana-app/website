@@ -10,7 +10,6 @@
   "permalink": "/docs/intro",
   "editUrl": "https://github.com/oslabs-beta/ohana/docs/intro.md",
   "version": "current",
-<<<<<<< HEAD
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
@@ -18,20 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "More Resources",
-    "permalink": "/docs/Introduction/more-resources"
+    "permalink": "/docs/introduction/more-resources"
   },
   "next": {
     "title": "Hi!",
     "permalink": "/docs/hello"
-=======
-  "sidebarPosition": 1,
-  "frontMatter": {
-    "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
->>>>>>> main
   }
 }

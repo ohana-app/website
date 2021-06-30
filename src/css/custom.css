@@ -41,6 +41,22 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   align-items: center;
 }
 
+#ohana-team {
+  margin-top: 1em;
+}
+
+.team-cards {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(102, 212, 189);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1.5em;
+  justify-content: space-between;
+  min-width: 24em;
+  max-width: 30em;
+}
+
 @media (max-width: 150em) {
   #cards-container {
     max-width: 100em;
@@ -53,7 +69,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 @media (max-width: 80em) {
   #cards-container {
-    max-width: 100em;
+    max-width: 80em;
     margin: 1em;
     display: grid;
     grid-template-columns: auto auto;
@@ -71,7 +87,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     
   }
   .portraits{
-    height: 6em;
+    height: 10em;
     border-radius: 50%;
     margin: 0;
   }
@@ -80,17 +96,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   }
 }
 
-.team-cards {
-  display: flex;
-  align-items: center;
-  border: 1px solid rgb(102, 212, 189);
-  border-radius: 1em;
-  margin: 1em;
-  padding: 1.5em;
-  justify-content: space-between;
-  min-width: 20em;
-  max-width: 25em;
-}
 
 .team-cards:hover {
   box-shadow: 0 0 5px rgb(102, 212, 189);

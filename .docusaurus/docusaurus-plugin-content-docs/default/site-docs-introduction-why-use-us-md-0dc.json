@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "How It Works",
-    "permalink": "/docs/Introduction/how-it-works"
+    "title": "Getting Started",
+    "permalink": "/docs/Introduction/getting-started"
   },
   "next": {
     "title": "Crash Course",

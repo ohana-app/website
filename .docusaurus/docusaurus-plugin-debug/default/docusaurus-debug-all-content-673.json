@@ -11,209 +11,70 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-<<<<<<< HEAD
-          "sidebarFilePath": "/Users/fenris/Desktop/Codesmith/website/sidebars.js",
-          "contentPath": "/Users/fenris/Desktop/Codesmith/website/docs",
-          "contentPathLocalized": "/Users/fenris/Desktop/Codesmith/website/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "Introduction/introduction-to-ohana",
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "category",
-                "label": "Introduction",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Introduction/introduction-to-ohana"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/how-it-works"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/why-use-us"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/crash-course"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/community"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/more-resources"
-=======
           "sidebarFilePath": "/Users/lawrencehan/website/sidebars.js",
           "contentPath": "/Users/lawrencehan/website/docs",
           "contentPathLocalized": "/Users/lawrencehan/website/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "mainDocId": "ohana",
           "sidebars": {
             "tutorialSidebar": [
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "ohana"
+              },
+              {
+                "type": "doc",
+                "id": "why-use-us"
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "Getting Started",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "getting-started/setup"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "getting-started/crash-course"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "getting-started/features"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
->>>>>>> main
+                    "id": "getting-started/community"
                   }
                 ],
                 "collapsed": true
               },
               {
                 "type": "doc",
-<<<<<<< HEAD
-                "id": "intro"
-              },
-              {
-                "type": "doc",
-=======
->>>>>>> main
-                "id": "hello",
-                "label": "Hi!"
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
-                  }
-                ],
-                "collapsed": true
+                "id": "more-resources"
               }
             ]
           },
           "permalinkToSidebar": {
-            "/docs/hello": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar",
-<<<<<<< HEAD
-            "/docs/Introduction/community": "tutorialSidebar",
-            "/docs/Introduction/crash-course": "tutorialSidebar",
-            "/docs/Introduction/features": "tutorialSidebar",
-            "/docs/Introduction/how-it-works": "tutorialSidebar",
-            "/docs/Introduction/introduction-to-ohana": "tutorialSidebar",
-            "/docs/Introduction/more-resources": "tutorialSidebar",
-            "/docs/Introduction/why-use-us": "tutorialSidebar",
-=======
-            "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-            "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-            "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
->>>>>>> main
-            "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+            "/docs/getting-started/community": "tutorialSidebar",
+            "/docs/getting-started/crash-course": "tutorialSidebar",
+            "/docs/getting-started/features": "tutorialSidebar",
+            "/docs/getting-started/setup": "tutorialSidebar",
+            "/docs/more-resources": "tutorialSidebar",
+            "/docs/ohana": "tutorialSidebar",
+            "/docs/why-use-us": "tutorialSidebar"
           },
           "docs": [
             {
-              "unversionedId": "hello",
-              "id": "hello",
-              "isDocsHomePage": false,
-              "title": "Hello",
-              "description": "This is my first Docusaurus document!",
-              "source": "@site/docs/hello.md",
-              "sourceDirName": ".",
-              "slug": "/hello",
-              "permalink": "/docs/hello",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/hello.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_label": "Hi!",
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-<<<<<<< HEAD
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-=======
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
->>>>>>> main
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "isDocsHomePage": false,
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/intro.md",
-              "version": "current",
-<<<<<<< HEAD
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "More Resources",
-                "permalink": "/docs/Introduction/more-resources"
-              },
-              "next": {
-                "title": "Hi!",
-                "permalink": "/docs/hello"
-              }
-            },
-            {
-              "unversionedId": "Introduction/community",
-              "id": "Introduction/community",
+              "unversionedId": "getting-started/community",
+              "id": "getting-started/community",
               "isDocsHomePage": false,
               "title": "Community",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/Introduction/community.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/community",
-              "permalink": "/docs/Introduction/community",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/community.md",
+              "source": "@site/docs/getting-started/community.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/community",
+              "permalink": "/docs/getting-started/community",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/getting-started/community.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -223,24 +84,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Features",
-                "permalink": "/docs/Introduction/features"
+                "permalink": "/docs/getting-started/features"
               },
               "next": {
                 "title": "More Resources",
-                "permalink": "/docs/Introduction/more-resources"
+                "permalink": "/docs/more-resources"
               }
             },
             {
-              "unversionedId": "Introduction/crash-course",
-              "id": "Introduction/crash-course",
+              "unversionedId": "getting-started/crash-course",
+              "id": "getting-started/crash-course",
               "isDocsHomePage": false,
               "title": "Crash Course",
               "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/Introduction/crash-course.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/crash-course",
-              "permalink": "/docs/Introduction/crash-course",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/crash-course.md",
+              "source": "@site/docs/getting-started/crash-course.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/crash-course",
+              "permalink": "/docs/getting-started/crash-course",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/getting-started/crash-course.md",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -249,25 +110,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Why Use Us?",
-                "permalink": "/docs/Introduction/why-use-us"
+                "title": "Setup",
+                "permalink": "/docs/getting-started/setup"
               },
               "next": {
                 "title": "Features",
-                "permalink": "/docs/Introduction/features"
+                "permalink": "/docs/getting-started/features"
               }
             },
             {
-              "unversionedId": "Introduction/features",
-              "id": "Introduction/features",
+              "unversionedId": "getting-started/features",
+              "id": "getting-started/features",
               "isDocsHomePage": false,
               "title": "Features",
               "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/Introduction/features.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/features",
-              "permalink": "/docs/Introduction/features",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/features.md",
+              "source": "@site/docs/getting-started/features.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/features",
+              "permalink": "/docs/getting-started/features",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/getting-started/features.md",
               "version": "current",
               "sidebarPosition": 5,
               "frontMatter": {
@@ -277,74 +138,52 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Crash Course",
-                "permalink": "/docs/Introduction/crash-course"
+                "permalink": "/docs/getting-started/crash-course"
               },
               "next": {
                 "title": "Community",
-                "permalink": "/docs/Introduction/community"
+                "permalink": "/docs/getting-started/community"
               }
             },
             {
-              "unversionedId": "Introduction/how-it-works",
-              "id": "Introduction/how-it-works",
+              "unversionedId": "getting-started/setup",
+              "id": "getting-started/setup",
               "isDocsHomePage": false,
-              "title": "How It Works",
-              "description": "- Download and check out the codebase from//github.com/oslabs-beta/ohana`",
-              "source": "@site/docs/Introduction/how-it-works.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/how-it-works",
-              "permalink": "/docs/Introduction/how-it-works",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/how-it-works.md",
+              "title": "Setup",
+              "description": "Download and check out the codebase from:",
+              "source": "@site/docs/getting-started/setup.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/setup",
+              "permalink": "/docs/getting-started/setup",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/getting-started/setup.md",
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2,
-                "title": "How It Works"
+                "sidebar_position": 3,
+                "title": "Setup",
+                "id": "setup"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction to Ohana",
-                "permalink": "/docs/Introduction/introduction-to-ohana"
-              },
-              "next": {
                 "title": "Why Use Us?",
-                "permalink": "/docs/Introduction/why-use-us"
-              }
-            },
-            {
-              "unversionedId": "Introduction/introduction-to-ohana",
-              "id": "Introduction/introduction-to-ohana",
-              "isDocsHomePage": false,
-              "title": "Introduction to Ohana",
-              "description": "<!--",
-              "source": "@site/docs/Introduction/introduction-to-ohana.mdx",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/introduction-to-ohana",
-              "permalink": "/docs/Introduction/introduction-to-ohana",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/introduction-to-ohana.mdx",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "title": "Introduction to Ohana"
+                "permalink": "/docs/why-use-us"
               },
-              "sidebar": "tutorialSidebar",
               "next": {
-                "title": "How It Works",
-                "permalink": "/docs/Introduction/how-it-works"
+                "title": "Crash Course",
+                "permalink": "/docs/getting-started/crash-course"
               }
             },
             {
-              "unversionedId": "Introduction/more-resources",
-              "id": "Introduction/more-resources",
+              "unversionedId": "more-resources",
+              "id": "more-resources",
               "isDocsHomePage": false,
               "title": "More Resources",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/Introduction/more-resources.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/more-resources",
-              "permalink": "/docs/Introduction/more-resources",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/more-resources.md",
+              "source": "@site/docs/more-resources.md",
+              "sourceDirName": ".",
+              "slug": "/more-resources",
+              "permalink": "/docs/more-resources",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/more-resources.md",
               "version": "current",
               "sidebarPosition": 7,
               "frontMatter": {
@@ -354,252 +193,57 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Community",
-                "permalink": "/docs/Introduction/community"
-              },
-              "next": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "permalink": "/docs/getting-started/community"
               }
             },
             {
-              "unversionedId": "Introduction/why-use-us",
-              "id": "Introduction/why-use-us",
+              "unversionedId": "ohana",
+              "id": "ohana",
+              "isDocsHomePage": false,
+              "title": "Ohana",
+              "description": "<!--",
+              "source": "@site/docs/ohana.mdx",
+              "sourceDirName": ".",
+              "slug": "/ohana",
+              "permalink": "/docs/ohana",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/ohana.mdx",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Ohana"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Why Use Us?",
+                "permalink": "/docs/why-use-us"
+              }
+            },
+            {
+              "unversionedId": "why-use-us",
+              "id": "why-use-us",
               "isDocsHomePage": false,
               "title": "Why Use Us?",
               "description": "Why pay more for the same thing? Ohana offers the same functionality included within paid services like Loft and packages it with an open source platform, allowing your team to customize and scale to your company's needs.",
-              "source": "@site/docs/Introduction/why-use-us.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/why-use-us",
-              "permalink": "/docs/Introduction/why-use-us",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/Introduction/why-use-us.md",
+              "source": "@site/docs/why-use-us.md",
+              "sourceDirName": ".",
+              "slug": "/why-use-us",
+              "permalink": "/docs/why-use-us",
+              "editUrl": "https://github.com/oslabs-beta/ohana/docs/why-use-us.md",
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 3,
+                "sidebar_position": 2,
                 "title": "Why Use Us?"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "How It Works",
-                "permalink": "/docs/Introduction/how-it-works"
+                "title": "Ohana",
+                "permalink": "/docs/ohana"
               },
               "next": {
-                "title": "Crash Course",
-                "permalink": "/docs/Introduction/crash-course"
-=======
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "isDocsHomePage": false,
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/congratulations.md",
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Hi!",
-                "permalink": "/docs/hello"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "isDocsHomePage": false,
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/create-a-blog-post.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "isDocsHomePage": false,
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/create-a-document.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "isDocsHomePage": false,
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/create-a-page.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "isDocsHomePage": false,
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/deploy-your-site.md",
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-basics/markdown-features.mdx",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
->>>>>>> main
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-extras/manage-docs-versions.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Hi!",
-                "permalink": "/docs/hello"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/tutorial-extras/translate-your-site.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Setup",
+                "permalink": "/docs/getting-started/setup"
               }
             }
           ]
@@ -804,27 +448,13 @@
       },
       {
         "type": "mdx",
-<<<<<<< HEAD
-=======
-        "permalink": "/introduction",
-        "source": "@site/src/pages/introduction.md"
-      },
-      {
-        "type": "mdx",
->>>>>>> main
         "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md"
       },
       {
-<<<<<<< HEAD
-        "type": "mdx",
-        "permalink": "/meet-the-team",
-        "source": "@site/src/pages/meet-the-team.md"
-=======
         "type": "jsx",
         "permalink": "/meet-the-team",
         "source": "@site/src/pages/meet-the-team.js"
->>>>>>> main
       },
       {
         "type": "mdx",

@@ -24,9 +24,9 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'ohana',
           position: 'left',
-          label: 'Introduction',
+          label: 'Guide',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/meet-the-team', label: 'Meet The Team', position: 'right'},
