@@ -4,61 +4,117 @@ title: Setup
 id: setup
 ---
 
-# Setup
+## Getting Started
 - **Download and check out the codebase at:** ```https://github.com/oslabs-beta/ohana```
   - A containerized version exists here on docker hub: ```insert docker hub repository here```
-- **Admins handle the creation and maintenance of a (existing) Cluster**
+- **DevOps Admins handle the creation and maintenance of a new or existing Cluster**
 - **Admins can then create Users to onboard a new emploee or team member with specific access controls**
-- **A Dockerfile will be included but is up to the Admin to configure correctly**
+- **A Dockerfile will be included but is up to the Admin to configure correctly.:**
+***
 
-After forking and cloning the repository, open a terminal on the cloned directory on your local filesystem.
-Run the following command to install the necessary dependencies:
-```
-npm install
-```
+After forking and cloning the repository, open a terminal within the cloned directory on your local filesystem.
+Run the following command to install the necessary dependencies: ```npm install ```
+
 When the dependencies are finished installing, run the following to concurrently bundle the application's assets and start the Express server in a ```development``` environment:
+
+Ensure helm has been installed. You can do so with these commands:
+```helm version``` to check your version. Please reference [helm](https://helm.sh/docs/intro/install/) for further instructions based on your OS
+
+Ensure vCluster has been installed:
+```vcluster -v``` to check your version. Please reference the following to download for your respective OS or visit [vCluster](https://www.vcluster.com/):
+
+**Intel Mac**
 ```
-npm run dev
+curl -s -L "https://github.com/loft-sh/vcluster/releases/latest" | sed -nE 's!.*"([^"]*vcluster-darwin-amd64)".*!https://github.com\1!p' | xargs -n 1 curl -L -o vcluster && chmod +x vcluster;
+
+sudo mv vcluster /usr/local/bin;
 ```
+**Silicon Mac**
+```
+curl -s -L "https://github.com/loft-sh/vcluster/releases/latest" | sed -nE 's!.*"([^"]*vcluster-darwin-arm64)".*!https://github.com\1!p' | xargs -n 1 curl -L -o vcluster && chmod +x vcluster;
+sudo mv vcluster /usr/local/bin;
+```
+**Windows**
+```
+md -Force "$Env:APPDATA\vcluster"; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]'Tls,Tls11,Tls12';
+
+Invoke-WebRequest -UseBasicParsing ((Invoke-WebRequest -URI "https://github.com/loft-sh/vcluster/releases/latest" -UseBasicParsing).Content -replace "(?ms).*`"([^`"]*vcluster-windows-amd64.exe)`".*","https://github.com/`$1") -o $Env:APPDATA\vcluster\vcluster.exe;
+
+$env:Path += ";" + $Env:APPDATA + "\vcluster";
+
+[Environment]::SetEnvironmentVariable("Path", $env:Path, [System.EnvironmentVariableTarget]::User);
+```
+**Linux AMD**
+```
+curl -s -L "https://github.com/loft-sh/vcluster/releases/latest" | sed -nE 's!.*"([^"]*vcluster-linux-amd64)".*!https://github.com\1!p' | xargs -n 1 curl -L -o vcluster && chmod +x vcluster;
+
+sudo mv vcluster /usr/local/bin;
+```
+**Linux ARM**
+```
+curl -s -L "https://github.com/loft-sh/vcluster/releases/latest" | sed -nE 's!.*"([^"]*vcluster-linux-arm64)".*!https://github.com\1!p' | xargs -n 1 curl -L -o vcluster && chmod +x vcluster;
+
+sudo mv vcluster /usr/local/bin;
+```
+To run the application, execute ```npm run dev```
+
 After the application finishes compiling, you should be served the Ohana user interface on ```localhost:8080```, with the server listening on ```localhost:3000```. You should
 see a login screen rendered to your browser.
 
+### Create a Service Account
 
-## Create a User
-- Create a user based off their email, allowing them full access to create virtual clusters and namespaces within that environment
-**placeholder for picture/gif of the user creation workflow**
-## Create a Cluster / vCluster
-- A User without admin priveleges will be routed through to the vCluster page, allowing them to create a Cluster, which grants full administrator priveleges within that cluster
-**placeholder for picture/gif of the vcluster creation workflow**
+To create the Admin service account that will execute on behalf of users, execute the following commands or you can reference [gcloud Service Account Creation](https://cloud.google.com/iam/docs/creating-managing-service-accounts)
+```
+gcloud iam service-accounts create [Service Account ID] \
+  --description="[OPTIONAL: Description of Role]" \
+  --display-name="[Display Name of Service Account]"
+# Note: The Service Account ID cannot be changed; accepts 6-30 characters and can contain lowercase alphanumeric characters and dashes 
+```
+- After Service Account creation, set the role permissions to Admin or your choosing
+```
+gcloud projects add-iam-policy-binding [Project ID] \
+  --member="serviceAccount:[Service Account ID]@[Project ID].iam.gserviceaccount.com" \
+  --role="[roles/iam.serviceAccountAdmin]"
+```
+- To list all Service Accounts, use:
+ ```gcloud iam service-accounts list```
+- Create the keys json, execute the following commands or reference [JSON Key Creation](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/create)
+```
+gcloud iam service-accounts keys create [outputFile.json] --iam-account=[Iam-Account-Name]@[Project-Name].iam.gserviceaccount.com
+# Optional flags: [--key-file-type=KEY_FILE_TYPE; default="json"] [GCLOUD_WIDE_FLAG …]
+# Additional Google Wide Flags can be referenced in the link above
+```
+- Generated outputFile.json should look something like this:
+```
+{
+    "type": "service_account",
+    "project_id": "Ohana-1234",
+    "private_key_id": "f31f9767f26023kj623j96195b8c7d",
+    "private_key": "private key"
+    "client_email": "newadmin@Ohana.iam.gserviceaccount.com",
+    "client_id": "1159271332468734598",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/..."
+}
+```
+- Connect your Database through the URI variable in ```models.js``` then refer to the Dockerfile and fill in the environment variables
+```
+# Set arguments within the Dockerfile
+## Add gcloud service account here
+ARG gcloud_account= <newadmin@project_id.iam.gserviceaccount.com>
 
+## Add gcloud account key file path here
+ARG key_path= <outputFile.json>
 
+## Add GKE project_id here
+ARG project_id= <Ohana-1234>
 
-## Create a Namespace
-- The namespace allows a developer to function freely with a specified image and make changes at will without affecting the image currently in production
-- Namespace creation is limited to the Clusters the User has access to, defined and segmented by the Team(s) they have been assigned to
-- Deployment is also easy: designate a deployment name and the image file the User wants to build - a two step process to deploy and click out to the instance; this supports hot module reloading if using webpack and allows you to view changes in real time
-  - Any registry like ECR, Dockerhub, ACR with a valid image link are compatible
-**placeholder for gif of the namespace creation workflow**
+## Add GKE Cluster zone or region here
+ARG cluster_zone= <us-west1-a>
+```
+***
 
+Please proceed to our next section for a crash course through the UI/UX
 
-
-# Connectivity
-- At this juncture, Ohana only supports Google's Kubernetes Engine (GKE)
-- Support for the following are slated for deployment in the near future:
-  - Amazon's Kuernetes Service (EKS)
-  - Microsoft Azure's Kuberenetes Service (AKS)
-  - IBM's Cloud Kubernetes Service (IKS)
-
-
-
-## Databases
-- While a PostgresQL database is provided out of the box, a solution that currently exists for you can be incorporated and utilized instead of the packaged solution according to your needs. We provide a single file that includes all necessary variables, which can be filled out to populate relevant fields
-**include a picture of the schema? probably not**
-**Note: Due to the relational aspect of Admins, Users, and Teams, MongoDB is not recommended**
-
-
-
-# Monitoring
-**will likely need modification based on user roles**
-- Monitoring of resources and current Clusters, vClusters, and Namespaces will be provided by querying the database Cluster uptime checks. While no usage statistics will be provided, this is a feature that is on the development roadmap
-**include a picture of the database/table of active clusters/vclusters/namespaces**
