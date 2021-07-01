@@ -69,7 +69,7 @@
               "id": "getting-started/community",
               "isDocsHomePage": false,
               "title": "Community",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "description": "As an Open Source project, we love to build community and Ohana has much more to offer! We would love for you to join the family and come along for the ride!",
               "source": "@site/docs/getting-started/community.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/community",
@@ -83,7 +83,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Features",
+                "title": "Tech Stack & Features",
                 "permalink": "/docs/getting-started/features"
               },
               "next": {
@@ -96,7 +96,7 @@
               "id": "getting-started/crash-course",
               "isDocsHomePage": false,
               "title": "Crash Course",
-              "description": "- Generate the variables needed to initialize your Kubernetes flow:",
+              "description": "Administrator Overview",
               "source": "@site/docs/getting-started/crash-course.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/crash-course",
@@ -114,7 +114,7 @@
                 "permalink": "/docs/getting-started/setup"
               },
               "next": {
-                "title": "Features",
+                "title": "Tech Stack & Features",
                 "permalink": "/docs/getting-started/features"
               }
             },
@@ -122,8 +122,8 @@
               "unversionedId": "getting-started/features",
               "id": "getting-started/features",
               "isDocsHomePage": false,
-              "title": "Features",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "title": "Tech Stack & Features",
+              "description": "Ohana utilizes a tech stack which incorporates the following:",
               "source": "@site/docs/getting-started/features.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/features",
@@ -133,7 +133,7 @@
               "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_position": 5,
-                "title": "Features"
+                "title": "Tech Stack & Features"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -150,7 +150,7 @@
               "id": "getting-started/setup",
               "isDocsHomePage": false,
               "title": "Setup",
-              "description": "- Download and check out the codebase at//github.com/oslabs-beta/ohana`",
+              "description": "Getting Started",
               "source": "@site/docs/getting-started/setup.md",
               "sourceDirName": "getting-started",
               "slug": "/getting-started/setup",
@@ -201,7 +201,7 @@
               "id": "ohana",
               "isDocsHomePage": false,
               "title": "Ohana",
-              "description": "<!--",
+              "description": "Ohana is designed to seamlessly integrate into your Kubernetes workflow by breaking the barriers between DevOps and Developers; keeping sensitive data apart from developers who need to work on the existing codebase and allowing operations to focus solely on the stability of the Cluster and managing container load. While there are paid products that exist to do this for you, Ohana offers this at no cost and provides a bare-bones platform that allows you to create virtual clusters, namespaces, and streamline independent workflows all within team assigned clusters through Role Based Access Control (RBAC).",
               "source": "@site/docs/ohana.mdx",
               "sourceDirName": ".",
               "slug": "/ohana",
@@ -224,7 +224,7 @@
               "id": "why-use-us",
               "isDocsHomePage": false,
               "title": "Why Use Us?",
-              "description": "Why pay more for the same thing? Ohana offers the same functionality included within paid services like Loft and packages it with an open source platform, allowing your team to customize and scale to your company's needs.",
+              "description": "Why pay more for the same thing? Ohana offers the same functionality offered with paid services and packages it with an open source platform, allowing your team to customize and scale to your company's needs.",
               "source": "@site/docs/why-use-us.md",
               "sourceDirName": ".",
               "slug": "/why-use-us",
