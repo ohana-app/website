@@ -44,22 +44,17 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','17b'),
+  component: ComponentCreator('/blog','980'),
   exact: true,
 },
 {
-  path: '/blog/greetings',
-  component: ComponentCreator('/blog/greetings','ca0'),
+  path: '/blog/introducing-ohana',
+  component: ComponentCreator('/blog/introducing-ohana','296'),
   exact: true,
 },
 {
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','07a'),
-  exact: true,
-},
-{
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','6e6'),
+  path: '/blog/introduction-to-kubernetes',
+  component: ComponentCreator('/blog/introduction-to-kubernetes','138'),
   exact: true,
 },
 {
@@ -68,33 +63,33 @@ export default [
   exact: true,
 },
 {
-  path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','738'),
+  path: '/blog/tags/cloud',
+  component: ComponentCreator('/blog/tags/cloud','932'),
   exact: true,
 },
 {
-  path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','2fe'),
+  path: '/blog/tags/containerization',
+  component: ComponentCreator('/blog/tags/containerization','171'),
   exact: true,
 },
 {
-  path: '/blog/tags/greetings',
-  component: ComponentCreator('/blog/tags/greetings','479'),
+  path: '/blog/tags/containers',
+  component: ComponentCreator('/blog/tags/containers','9f9'),
   exact: true,
 },
 {
-  path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','263'),
+  path: '/blog/tags/docker',
+  component: ComponentCreator('/blog/tags/docker','449'),
   exact: true,
 },
 {
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','8b3'),
+  path: '/blog/tags/kubernetes',
+  component: ComponentCreator('/blog/tags/kubernetes','492'),
   exact: true,
 },
 {
-  path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','015'),
+  path: '/blog/tags/ohana',
+  component: ComponentCreator('/blog/tags/ohana','2fc'),
   exact: true,
 },
 {

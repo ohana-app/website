@@ -9,6 +9,5 @@ Anything unclear, buggy, or you have a suggestion? [Drop a line!](https://github
 
 
 ### Have even more time? Find us and join the conversation!
-- [Website](https://ohana-app.io)
-- [LinkedIn](https://docusaurus.io/community/support)
+- [LinkedIn](https://www.linkedin.com/company/osl-ohana/)
 - [Slack](https://join.slack.com/t/slack-so45105/shared_invite/zt-sd4bg4l1-5KbRhhXT6yNx18rs7zUL3w)

@@ -1,37 +1,44 @@
 {
-  "greetings": {
+  "ohana": {
     "allTagsPath": "/blog/tags",
-    "slug": "greetings",
-    "name": "greetings",
+    "slug": "ohana",
+    "name": "ohana",
     "count": 1,
-    "permalink": "/blog/tags/greetings"
+    "permalink": "/blog/tags/ohana"
   },
-  "facebook": {
+  "kubernetes": {
     "allTagsPath": "/blog/tags",
-    "slug": "facebook",
-    "name": "facebook",
-    "count": 1,
-    "permalink": "/blog/tags/facebook"
-  },
-  "hello": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
+    "slug": "kubernetes",
+    "name": "kubernetes",
     "count": 2,
-    "permalink": "/blog/tags/hello"
+    "permalink": "/blog/tags/kubernetes"
   },
-  "docusaurus": {
+  "containers": {
     "allTagsPath": "/blog/tags",
-    "slug": "docusaurus",
-    "name": "docusaurus",
-    "count": 3,
-    "permalink": "/blog/tags/docusaurus"
-  },
-  "hola": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hola",
-    "name": "hola",
+    "slug": "containers",
+    "name": "containers",
     "count": 1,
-    "permalink": "/blog/tags/hola"
+    "permalink": "/blog/tags/containers"
+  },
+  "docker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docker",
+    "name": "docker",
+    "count": 2,
+    "permalink": "/blog/tags/docker"
+  },
+  "cloud": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cloud",
+    "name": "cloud",
+    "count": 1,
+    "permalink": "/blog/tags/cloud"
+  },
+  "containerization": {
+    "allTagsPath": "/blog/tags",
+    "slug": "containerization",
+    "name": "containerization",
+    "count": 1,
+    "permalink": "/blog/tags/containerization"
   }
 }
