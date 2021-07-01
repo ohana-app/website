@@ -44,22 +44,17 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','e8c'),
+  component: ComponentCreator('/blog','980'),
   exact: true,
 },
 {
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','07a'),
-  exact: true,
-},
-{
-  path: '/blog/Introducting Ohana',
-  component: ComponentCreator('/blog/Introducting Ohana','33e'),
+  path: '/blog/introducing-ohana',
+  component: ComponentCreator('/blog/introducing-ohana','296'),
   exact: true,
 },
 {
   path: '/blog/introduction-to-kubernetes',
-  component: ComponentCreator('/blog/introduction-to-kubernetes','390'),
+  component: ComponentCreator('/blog/introduction-to-kubernetes','138'),
   exact: true,
 },
 {
@@ -68,18 +63,13 @@ export default [
   exact: true,
 },
 {
-  path: '/blog/tags/cloud-computing',
-  component: ComponentCreator('/blog/tags/cloud-computing','148'),
-  exact: true,
-},
-{
-  path: '/blog/tags/clusters',
-  component: ComponentCreator('/blog/tags/clusters','91c'),
+  path: '/blog/tags/cloud',
+  component: ComponentCreator('/blog/tags/cloud','932'),
   exact: true,
 },
 {
   path: '/blog/tags/containerization',
-  component: ComponentCreator('/blog/tags/containerization','9fc'),
+  component: ComponentCreator('/blog/tags/containerization','171'),
   exact: true,
 },
 {
@@ -89,42 +79,17 @@ export default [
 },
 {
   path: '/blog/tags/docker',
-  component: ComponentCreator('/blog/tags/docker','7b6'),
-  exact: true,
-},
-{
-  path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','8a5'),
-  exact: true,
-},
-{
-  path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','2fe'),
-  exact: true,
-},
-{
-  path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','263'),
+  component: ComponentCreator('/blog/tags/docker','449'),
   exact: true,
 },
 {
   path: '/blog/tags/kubernetes',
-  component: ComponentCreator('/blog/tags/kubernetes','a04'),
-  exact: true,
-},
-{
-  path: '/blog/tags/namespaces',
-  component: ComponentCreator('/blog/tags/namespaces','a6b'),
+  component: ComponentCreator('/blog/tags/kubernetes','492'),
   exact: true,
 },
 {
   path: '/blog/tags/ohana',
   component: ComponentCreator('/blog/tags/ohana','2fc'),
-  exact: true,
-},
-{
-  path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','015'),
   exact: true,
 },
 {

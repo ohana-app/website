@@ -5,16 +5,17 @@ author: Lawrence Han
 author_title: Ohana | Software Engineer
 author_url: https://github.com/lawrencehan650
 author_image_url: https://github.com/lawrencehan650.png
-tags: [cloud computing, containerization, docker, kubernetes, clusters, namespaces]
+tags: [cloud, containerization, docker, kubernetes]
 ---
 
 The Digital Age we are living through is an epoch characterized by the rapid shift from industry to information serving as the driving force behind the world's economies. With millions upon millions of gigabytes of data being exchanged by billions of users everyday, this age of information has become reliant on cloud computing to provide the infrastructure needed to handle requests and to store an exponentially increasing amount of data.
+<!--truncate-->
 
 With the modern shift towards creating cloud-native applications, one technology in particular that has become prevalent is the concept of containerization.
 
 In traditional software development, engineers work on their codebase in a specific computing environment with unique combinations of libraries, dependencies, and operating systems installed. While an application might work on one developer's machine, this doesn't guarantee that it would work on another individual's machine, which might have a slightly different configuration.
 
-## Containers
+### Containers
 
 Container structureOn the other hand, containerization is the process of packaging an application with the OS, libraries, configuration files, and dependencies it needs into a lightweight bundle of software. With all of these installed, the containers can operate in an environment isolated from the user's machine. This ensures that the application is being used in the same environment in which it was developed, making it possible to run across any platform free of issues.
 
@@ -28,7 +29,7 @@ Using configurations provided in a text document called a Dockerfile, Docker all
 
 Docker workflow diagramOnce an application is deployed in a container, it can theoretically be used by anyone, anywhere. But what happens if your container goes down for some reason; would you have to spin up another one on demand? If you suddenly find your application flooding with new users, would you need to deploy new containers and direct users to a new endpoint?
 
-## Kubernetes
+### Kubernetes
 
 This is where Kubernetes comes in. Kubernetes is an open-source container orchestration system, originally developed by Google. It automates the process of deploying, scaling, and managing containerized applications and services.
 
@@ -47,9 +48,8 @@ Furthermore, teams can utilize an open-source tool called vcluster which can be 
 
 Namespaces in conjunction with vclusters can be a solution to solving the problem of multi-tenancy on a cluster. Combined, they could give organizations the ability to implement role-based access controls to limit which environments and processes teams or individuals can access.
 
-## Ohana
+### Ohana
 
-While this is a lot to take in, the engineering team at Ohana has developed an open-source application that intends to abstract the relationships between all of these technologies to help ease the process of deploying clusters,  namespaces, vclusters, and containerized codebases.
+While this is a lot to take in, the engineering team at Ohana has developed an open-source application that intends to abstract the relationships between all of these technologies to help ease the process of deploying clusters, namespaces, vclusters, and containerized codebases.
 
 My colleague Andy Kahn has written a fantastic piece walking through how Ohana can help teams looking to migrate their applications to the cloud.
-Feel free to visit the Ohana website for docs and more information!

@@ -57,16 +57,12 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/company/osl-ohana/"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Slack",
+              "href": "https://join.slack.com/t/slack-so45105/shared_invite/zt-sd4bg4l1-5KbRhhXT6yNx18rs7zUL3w"
             }
           ]
         },
@@ -111,7 +107,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/andy/Dropbox/Andy/Documents/2021/Reference/Andy/Codesmith/CS Immersive/Program/Git/Projects/Production Project/Repos/Docs site repo/website/sidebars.js",
+          "sidebarPath": "/Users/lawrencehan/website/sidebars.js",
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "blog": {
@@ -119,7 +115,7 @@ export default {
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "theme": {
-          "customCss": "/Users/andy/Dropbox/Andy/Documents/2021/Reference/Andy/Codesmith/CS Immersive/Program/Git/Projects/Production Project/Repos/Docs site repo/website/src/css/custom.css"
+          "customCss": "/Users/lawrencehan/website/src/css/custom.css"
         }
       }
     ]

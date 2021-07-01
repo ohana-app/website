@@ -53,16 +53,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/osl-ohana/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Slack',
+              href: 'https://join.slack.com/t/slack-so45105/shared_invite/zt-sd4bg4l1-5KbRhhXT6yNx18rs7zUL3w',
             },
           ],
         },

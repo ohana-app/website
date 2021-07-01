@@ -25,7 +25,7 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-e8c": {
+  "/blog-980": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -33,63 +33,42 @@
         "content": "content---blog-0-a-6-5ab"
       },
       {
-        "content": "content---blog-1-a-4-9dc"
-      },
-      {
-        "content": "content---blogaf-1-856"
-      },
-      {
-        "content": "content---blog-357-22b"
+        "content": "content---bloge-23-f39"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/hello-world-07a": {
+  "/blog/introducing-ohana-296": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-hello-worldd-61-086"
+    "content": "content---blog-introducting-ohana-020-222"
   },
-  "/blog/Introducting Ohana-33e": {
+  "/blog/introduction-to-kubernetes-138": {
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-hola-020-4bd"
-  },
-  "/blog/introduction-to-kubernetes-390": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-greetingsf-9-d-fe5"
+    "content": "content---blog-introduction-to-kubernetes-737-4c6"
   },
   "/blog/tags-e13": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/cloud-computing-148": {
+  "/blog/tags/cloud-932": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-1-a-4-9dc"
+        "content": "content---bloge-23-f39"
       }
     ],
-    "metadata": "metadata---blog-tags-cloud-computing-277-fcd"
+    "metadata": "metadata---blog-tags-cloudf-35-bb0"
   },
-  "/blog/tags/clusters-91c": {
+  "/blog/tags/containerization-171": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-1-a-4-9dc"
-      }
-    ],
-    "metadata": "metadata---blog-tags-clusters-224-b20"
-  },
-  "/blog/tags/containerization-9fc": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-1-a-4-9dc"
+        "content": "content---bloge-23-f39"
       }
     ],
     "metadata": "metadata---blog-tags-containerization-4-bc-762"
@@ -104,7 +83,7 @@
     ],
     "metadata": "metadata---blog-tags-containers-0-e-4-dd4"
   },
-  "/blog/tags/docker-7b6": {
+  "/blog/tags/docker-449": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -112,48 +91,12 @@
         "content": "content---blog-0-a-6-5ab"
       },
       {
-        "content": "content---blog-1-a-4-9dc"
+        "content": "content---bloge-23-f39"
       }
     ],
     "metadata": "metadata---blog-tags-docker-859-ae4"
   },
-  "/blog/tags/docusaurus-8a5": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blogaf-1-856"
-      },
-      {
-        "content": "content---blog-357-22b"
-      }
-    ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
-  },
-  "/blog/tags/facebook-2fe": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blogaf-1-856"
-      }
-    ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
-  },
-  "/blog/tags/hello-263": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blogaf-1-856"
-      },
-      {
-        "content": "content---blog-357-22b"
-      }
-    ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
-  },
-  "/blog/tags/kubernetes-a04": {
+  "/blog/tags/kubernetes-492": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
@@ -161,20 +104,10 @@
         "content": "content---blog-0-a-6-5ab"
       },
       {
-        "content": "content---blog-1-a-4-9dc"
+        "content": "content---bloge-23-f39"
       }
     ],
     "metadata": "metadata---blog-tags-kubernetesb-0-f-750"
-  },
-  "/blog/tags/namespaces-a6b": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-1-a-4-9dc"
-      }
-    ],
-    "metadata": "metadata---blog-tags-namespaces-0-bd-08b"
   },
   "/blog/tags/ohana-2fc": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
@@ -185,11 +118,6 @@
       }
     ],
     "metadata": "metadata---blog-tags-ohanabc-5-84f"
-  },
-  "/blog/welcome-015": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcome-286-e55"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
