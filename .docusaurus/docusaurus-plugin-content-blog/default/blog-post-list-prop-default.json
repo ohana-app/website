@@ -2,8 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Greetings!",
-      "permalink": "/blog/greetings"
+      "title": "Introducing Ohana, an internal Kubernetes platform",
+      "permalink": "/blog/Introducting Ohana"
+    },
+    {
+      "title": "Overview of Kubernetes",
+      "permalink": "/blog/introduction-to-kubernetes"
     },
     {
       "title": "Welcome",
@@ -12,10 +16,6 @@
     {
       "title": "Hello",
       "permalink": "/blog/hello-world"
-    },
-    {
-      "title": "Hola",
-      "permalink": "/blog/hola"
     }
   ]
 }

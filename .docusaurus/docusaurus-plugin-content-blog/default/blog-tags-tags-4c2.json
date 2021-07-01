@@ -1,10 +1,59 @@
 {
-  "greetings": {
+  "ohana": {
     "allTagsPath": "/blog/tags",
-    "slug": "greetings",
-    "name": "greetings",
+    "slug": "ohana",
+    "name": "ohana",
     "count": 1,
-    "permalink": "/blog/tags/greetings"
+    "permalink": "/blog/tags/ohana"
+  },
+  "kubernetes": {
+    "allTagsPath": "/blog/tags",
+    "slug": "kubernetes",
+    "name": "kubernetes",
+    "count": 2,
+    "permalink": "/blog/tags/kubernetes"
+  },
+  "containers": {
+    "allTagsPath": "/blog/tags",
+    "slug": "containers",
+    "name": "containers",
+    "count": 1,
+    "permalink": "/blog/tags/containers"
+  },
+  "docker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docker",
+    "name": "docker",
+    "count": 2,
+    "permalink": "/blog/tags/docker"
+  },
+  "cloud-computing": {
+    "allTagsPath": "/blog/tags",
+    "slug": "cloud-computing",
+    "name": "cloud computing",
+    "count": 1,
+    "permalink": "/blog/tags/cloud-computing"
+  },
+  "containerization": {
+    "allTagsPath": "/blog/tags",
+    "slug": "containerization",
+    "name": "containerization",
+    "count": 1,
+    "permalink": "/blog/tags/containerization"
+  },
+  "clusters": {
+    "allTagsPath": "/blog/tags",
+    "slug": "clusters",
+    "name": "clusters",
+    "count": 1,
+    "permalink": "/blog/tags/clusters"
+  },
+  "namespaces": {
+    "allTagsPath": "/blog/tags",
+    "slug": "namespaces",
+    "name": "namespaces",
+    "count": 1,
+    "permalink": "/blog/tags/namespaces"
   },
   "facebook": {
     "allTagsPath": "/blog/tags",
@@ -24,14 +73,7 @@
     "allTagsPath": "/blog/tags",
     "slug": "docusaurus",
     "name": "docusaurus",
-    "count": 3,
+    "count": 2,
     "permalink": "/blog/tags/docusaurus"
-  },
-  "hola": {
-    "allTagsPath": "/blog/tags",
-    "slug": "hola",
-    "name": "hola",
-    "count": 1,
-    "permalink": "/blog/tags/hola"
   }
 }
