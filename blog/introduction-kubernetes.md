@@ -26,8 +26,8 @@ The portability of containers greatly speeds up the development process. It allo
 But in order to actually build and deploy containers, developers need a container runtime. Currently, Docker is viewed as the industry standard because of its ability to manage container lifecycles, set resource limits on containers, and proxy requests to and from containers.
 
 Using configurations provided in a text document called a Dockerfile, Docker allows developers to easily build images - which are essentially templates for creating containers - from a project directory. These images can be pushed onto a container image registry, such as Docker Hub, where people can then pull the image to run a container.
-
 Docker workflow diagramOnce an application is deployed in a container, it can theoretically be used by anyone, anywhere. But what happens if your container goes down for some reason; would you have to spin up another one on demand? If you suddenly find your application flooding with new users, would you need to deploy new containers and direct users to a new endpoint?
+
 
 ### Kubernetes
 

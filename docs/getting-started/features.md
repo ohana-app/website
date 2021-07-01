@@ -35,9 +35,7 @@ title: Tech Stack & Features
 - Ohana can be and is containerized, meaning the platform works out of the box once your specific configurations and connections have been made to connect to your Kubernetes engine. Additionally, this offers a solution that works regardless of what operating system your Developer is on and can be replicated and distributed with a simple link.
 - **Best of all - we are Open Source and Free**, which also allows you build, modularize, or scale as your organization deems necessary.
 
-
 ## Roadmap
-
 As with most technologies, we are only 1% done with our journey and there are many more features on the Roadmap:
 - Compatibility with more cloud Kubernetes suites (AKS, EKS, IKS)
 - Real time health, analytics and usage monitoring of Clusters, vClusters, and Namespaces

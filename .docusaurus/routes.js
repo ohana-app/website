@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','980'),
+  component: ComponentCreator('/blog','048'),
   exact: true,
 },
 {
@@ -79,12 +79,12 @@ export default [
 },
 {
   path: '/blog/tags/docker',
-  component: ComponentCreator('/blog/tags/docker','449'),
+  component: ComponentCreator('/blog/tags/docker','f67'),
   exact: true,
 },
 {
   path: '/blog/tags/kubernetes',
-  component: ComponentCreator('/blog/tags/kubernetes','492'),
+  component: ComponentCreator('/blog/tags/kubernetes','873'),
   exact: true,
 },
 {
