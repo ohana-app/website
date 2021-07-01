@@ -34,7 +34,7 @@ Checking the box will allow the User full access to the app, which will unlock p
 > **Add as Admin** : Checking this box will allow the User full access to the app, which will unlock priveleges and accessibility panes within the app. The general rule of thumb is that DevOps will be Admins and Developers will be Users -->
 
 **placeholder for picture/gif of the user creation workflow in the Admin page**
-
+***
 ## User Overview
 
 ### Creating a vCluster
@@ -73,7 +73,7 @@ Checking the box will allow the User full access to the app, which will unlock p
 > Get Spaces Button (is this going to still be there or is it going to be hot reloaded as Active Spaces | should make the query only for the user's team id)
 
 **placeholder for gif of the namespace creation workflow**
-
+***
 ## Connectivity
 - **At this juncture, Ohana only supports Google's Kubernetes Engine (GKE)**
 - Support for the following are slated for deployment in the near future:

@@ -38,6 +38,14 @@ title: Tech Stack & Features
 
 ## Roadmap
 
+As with most technologies, we are only 1% done with our journey and there are many more features on the Roadmap:
+- Compatibility with more cloud Kubernetes suites (AKS, EKS, IKS)
+- Real time health, analytics and usage monitoring of Clusters, vClusters, and Namespaces
+- Deletion of Clusters limited to User scope
+- Additional abstraction to fully automate the Create, Deploy, and Expose workflow
+- Deeper and more efficient integrations across the entire suite to optimize performance
 
-Deletion of Clusters limited to User scope on the roadmap
-Connection to GKE (and more)
+Check out the Community on our next page!
+
+<!-- ## Release Notes -->
+
