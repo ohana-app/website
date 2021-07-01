@@ -82,6 +82,8 @@ The rest of the Dockerfile will install other dependencies in a multi-stage buil
 - Connects to GKE
 - Installs helm
 - Installs vCluster
+
+- From here, build your Docker image and upload it to the registry of your choice
 ***
 ## No Containerization
 
