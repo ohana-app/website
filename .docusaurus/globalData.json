@@ -31,11 +31,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "more-resources",
-              "path": "/docs/more-resources",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "ohana",
               "path": "/docs/ohana",
               "sidebar": "tutorialSidebar"

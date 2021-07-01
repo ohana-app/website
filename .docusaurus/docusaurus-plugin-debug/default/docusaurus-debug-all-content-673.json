@@ -47,10 +47,6 @@
                   }
                 ],
                 "collapsed": true
-              },
-              {
-                "type": "doc",
-                "id": "more-resources"
               }
             ]
           },
@@ -59,7 +55,6 @@
             "/docs/getting-started/crash-course": "tutorialSidebar",
             "/docs/getting-started/features": "tutorialSidebar",
             "/docs/getting-started/setup": "tutorialSidebar",
-            "/docs/more-resources": "tutorialSidebar",
             "/docs/ohana": "tutorialSidebar",
             "/docs/why-use-us": "tutorialSidebar"
           },
@@ -85,10 +80,6 @@
               "previous": {
                 "title": "Tech Stack & Features",
                 "permalink": "/docs/getting-started/features"
-              },
-              "next": {
-                "title": "More Resources",
-                "permalink": "/docs/more-resources"
               }
             },
             {
@@ -171,29 +162,6 @@
               "next": {
                 "title": "Crash Course",
                 "permalink": "/docs/getting-started/crash-course"
-              }
-            },
-            {
-              "unversionedId": "more-resources",
-              "id": "more-resources",
-              "isDocsHomePage": false,
-              "title": "More Resources",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/more-resources.md",
-              "sourceDirName": ".",
-              "slug": "/more-resources",
-              "permalink": "/docs/more-resources",
-              "editUrl": "https://github.com/oslabs-beta/ohana/docs/more-resources.md",
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7,
-                "title": "More Resources"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Community",
-                "permalink": "/docs/getting-started/community"
               }
             },
             {

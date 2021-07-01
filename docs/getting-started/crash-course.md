@@ -24,7 +24,7 @@ Utilize the default admin credentials located in the Database schema and create 
 
 ### Creating a vCluster
 - A User without admin priveleges will be routed through to the vCluster page, allowing them to create a Cluster, which grants full administrator priveleges within that cluster
-- Create a vCluster by selecting a ```Host Cluster```,```Namespace``` then naming your ```vCluster``` and clicking on <Button type="submit" variant="contained" color="secondary">Create</Button>
+- Create a vCluster by selecting a ```Host Cluster```,```Namespace``` then naming your ```vCluster``` and clicking on ```Create```
 
 > **Select Cluster** : Dropdown menu of Clusters that are available to a User
 
@@ -38,15 +38,15 @@ Utilize the default admin credentials located in the Database schema and create 
 
 ### Creating a Namespace
 - The Namespace allows a developer to function freely within a partitioned space with a specified image and make changes at will without affecting anything in production
-- Select a ```Cluster``` and specify a ```Namespace``` name and click <Button type="submit" variant="contained" color="secondary">Create</Button>
+- Select a ```Cluster``` and specify a ```Namespace``` name and click ```Create```
 
 > Select Cluster: Dropdown menu of Clusters that are available to a User
 
 > Host Namespace: Namespace creation is limited to the Clusters the User has access to, defined and segmented by the Team(s) they have been assigned to
 
 ### Deploying an Image
-- Deploy an Image simply by designating a ```Deployment Name```, ```Namespace```, and the specified ```Image``` link and clicking on <Button type="submit" variant="contained" color="secondary">Deploy</Button>
-- Once Deployed, fill in ```Deployment Name``` and ```Namespace``` then click on  <Button type="submit" variant="contained" color="secondary">Get External IP</Button> and a link to your exposed container will appear
+- Deploy an Image simply by designating a ```Deployment Name```, ```Namespace```, and the specified ```Image``` link and clicking on ```Deploy```
+- Once Deployed, fill in ```Deployment Name``` and ```Namespace``` then click on ```Get External IP``` and a link to your exposed container will appear
 - **Please note that deployment times will vary** 
 
 > Deployment Name: Designate a deployment name and the image file the User wants to build - a two step process to deploy and click out to the instance; this supports hot module reloading if using webpack and allows you to view changes in real time
