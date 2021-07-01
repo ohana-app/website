@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #EE5FA7;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -48,7 +48,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .team-cards {
   display: flex;
   align-items: center;
-  border: 1px solid rgb(102, 212, 189);
+  border: 1px solid #EE5FA7;
   border-radius: 1em;
   margin: 1em;
   padding: 1.5em;
@@ -98,7 +98,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 
 .team-cards:hover {
-  box-shadow: 0 0 5px rgb(102, 212, 189);
+  box-shadow: 0 0 5px #EE5FA7;
 }
 
 .name {
