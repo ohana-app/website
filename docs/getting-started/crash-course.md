@@ -8,28 +8,17 @@ title: Crash Course
 Utilize the default admin credentials located in the Database schema and create your own Administrator account once logged in. **Delete the default admin credentials to ensure bad actors cannot access your platform**.
 
 ### Creating a Team and Users
-<!-- Thinking of adding these into a glossary; Please refer to the glossary for more details -->
 - Create a Team and Users to set up the structure of the Developer organization
-<TextField label='User Email' name='email'></TextField><br></br> 
-Should default to organizational email, which acts as a unique identifier, allowing them full access to the features available to create virual clusters and namespaces within their defined environments<br></br>
-<TextField type='password' label='User Password' name='password'></TextField><br></br>
-Admin generated and can be reset by the User<br></br>
-<TextField label='First Name' name='firstName'></TextField><br></br>
-<TextField label='Last Name' name='lastName'></TextField><br></br>
-<TextField label='Team Name' name='teamName'></TextField><br></br>
-Create different Teams based on their function; this field will determine which Clusters and Namespaces a User will have access to; Team Names are associated with a specific Team ID<br></br>
-<FormControlLabel control=<Checkbox/>label='Add as Admin'/><br></br>
-Checking the box will allow the User full access to the app, which will unlock priveleges and accessibility panes within the app. The general rule of thumb is that DevOps will be Admins and Developers will be Users
 
-<!-- > **User Email** : Should default to organizational email, which acts as a unique identifier, allowing them full access to the features available to create virual clusters and namespaces within their defined environments
+> **User Email** : Should default to organizational email, which acts as a unique identifier, allowing them full access to the features available to create virual clusters and namespaces within their defined environments
 
 > **User Password** : Admin generated and can be reset by the User
 
 > **Team Name** : Create different Teams based on their function; this field will determine which Clusters and Namespaces a User will have access to; Team Names are associated with a specific Team ID
 
-> **Add as Admin** : Checking this box will allow the User full access to the app, which will unlock priveleges and accessibility panes within the app. The general rule of thumb is that DevOps will be Admins and Developers will be Users -->
+> **Add as Admin** : Checking this box will allow the User full access to the app, which will unlock priveleges and accessibility panes within the app. The general rule of thumb is that DevOps will be Admins and Developers will be Users
 
-**placeholder for picture/gif of the user creation workflow in the Admin page**
+<!-- **placeholder for picture/gif of the user creation workflow in the Admin page** -->
 ***
 ## User Overview
 
@@ -45,7 +34,7 @@ Checking the box will allow the User full access to the app, which will unlock p
 
 > **Active vClusters** : Displays a list of all active vClusters, allowing to monitor resource usage. Typically, the Admin should limit the amount of active vClusters a User can create
 
-**placeholder for picture/gif of the vcluster creation workflow**
+<!-- **placeholder for picture/gif of the vcluster creation workflow** -->
 
 ### Creating a Namespace
 - The Namespace allows a developer to function freely within a partitioned space with a specified image and make changes at will without affecting anything in production
@@ -68,20 +57,16 @@ Checking the box will allow the User full access to the app, which will unlock p
 
 > Get Spaces Button (is this going to still be there or is it going to be hot reloaded as Active Spaces | should make the query only for the user's team id)
 
-**placeholder for gif of the namespace creation workflow**
+<!-- **placeholder for gif of the namespace creation workflow** -->
 ***
 ## Connectivity
 - **At this juncture, Ohana only supports Google's Kubernetes Engine (GKE)**
-- Support for the following are slated for deployment in the near future:
-  - Amazon's Kuernetes Service (EKS)
-  - Microsoft Azure's Kuberenetes Service (AKS)
-  - IBM's Cloud Kubernetes Service (IKS)
 
 ## Databases
 - While a PostgresQL database is provided out of the box, The Admin can incorporate and utilize an existing solution instead of what is packaged according to your needs. We provide a single file that includes all necessary variables, which can be filled out to connect
 - **Note: Due to the relational aspect of Admins, Users, and Teams, MongoDB is not recommended**
 
 ## Monitoring
-**will likely need modification based on user roles**
+<!-- **will likely need modification based on user roles** -->
 - Monitoring of resources and current and active Clusters, vClusters, and Namespaces will be provided by querying the database. Connectivity to your Kubernetes service is also monitored. While no usage statistics will be provided, this is a feature that is on the development roadmap
-**include a picture of the database/table of active clusters/vclusters/namespaces**
+<!-- **include a picture of the database/table of active clusters/vclusters/namespaces** -->

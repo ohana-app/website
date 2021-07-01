@@ -6,7 +6,7 @@ id: setup
 
 ## Getting Started
 - Fork the codebase at: ```https://github.com/oslabs-beta/ohana```
-  - A containerized version exists here on docker hub: ```insert docker hub repository here```
+  <!-- - A containerized version exists here on docker hub: ```insert docker hub repository here``` -->
 - DevOps Admins handle the creation and maintenance of a new or existing Cluster
 - Admins can then create Users to onboard a new emploee or team member with specific access controls
 - A Dockerfile will be included but is up to the Admin to configure correctly.
