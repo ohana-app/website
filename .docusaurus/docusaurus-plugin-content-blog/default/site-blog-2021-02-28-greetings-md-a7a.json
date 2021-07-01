@@ -14,6 +14,10 @@
   ],
   "readingTime": 0.1,
   "truncated": false,
+  "prevItem": {
+    "title": "Hola",
+    "permalink": "/blog/hola"
+  },
   "nextItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"

@@ -44,12 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','17b'),
-  exact: true,
-},
-{
-  path: '/blog/greetings',
-  component: ComponentCreator('/blog/greetings','ca0'),
+  component: ComponentCreator('/blog','e8c'),
   exact: true,
 },
 {
@@ -58,8 +53,13 @@ export default [
   exact: true,
 },
 {
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','6e6'),
+  path: '/blog/Introducting Ohana',
+  component: ComponentCreator('/blog/Introducting Ohana','33e'),
+  exact: true,
+},
+{
+  path: '/blog/introduction-to-kubernetes',
+  component: ComponentCreator('/blog/introduction-to-kubernetes','390'),
   exact: true,
 },
 {
@@ -68,8 +68,33 @@ export default [
   exact: true,
 },
 {
+  path: '/blog/tags/cloud-computing',
+  component: ComponentCreator('/blog/tags/cloud-computing','148'),
+  exact: true,
+},
+{
+  path: '/blog/tags/clusters',
+  component: ComponentCreator('/blog/tags/clusters','91c'),
+  exact: true,
+},
+{
+  path: '/blog/tags/containerization',
+  component: ComponentCreator('/blog/tags/containerization','9fc'),
+  exact: true,
+},
+{
+  path: '/blog/tags/containers',
+  component: ComponentCreator('/blog/tags/containers','9f9'),
+  exact: true,
+},
+{
+  path: '/blog/tags/docker',
+  component: ComponentCreator('/blog/tags/docker','7b6'),
+  exact: true,
+},
+{
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','738'),
+  component: ComponentCreator('/blog/tags/docusaurus','8a5'),
   exact: true,
 },
 {
@@ -78,18 +103,23 @@ export default [
   exact: true,
 },
 {
-  path: '/blog/tags/greetings',
-  component: ComponentCreator('/blog/tags/greetings','479'),
-  exact: true,
-},
-{
   path: '/blog/tags/hello',
   component: ComponentCreator('/blog/tags/hello','263'),
   exact: true,
 },
 {
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','8b3'),
+  path: '/blog/tags/kubernetes',
+  component: ComponentCreator('/blog/tags/kubernetes','a04'),
+  exact: true,
+},
+{
+  path: '/blog/tags/namespaces',
+  component: ComponentCreator('/blog/tags/namespaces','a6b'),
+  exact: true,
+},
+{
+  path: '/blog/tags/ohana',
+  component: ComponentCreator('/blog/tags/ohana','2fc'),
   exact: true,
 },
 {

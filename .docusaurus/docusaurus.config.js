@@ -49,7 +49,7 @@ export default {
           "items": [
             {
               "label": "Tutorial",
-              "to": "/docs/intro"
+              "to": "/docs/ohana"
             }
           ]
         },
@@ -111,7 +111,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/fenris/Desktop/Codesmith/Docusaurus/website/sidebars.js",
+          "sidebarPath": "/Users/andy/Dropbox/Andy/Documents/2021/Reference/Andy/Codesmith/CS Immersive/Program/Git/Projects/Production Project/Repos/Docs site repo/website/sidebars.js",
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "blog": {
@@ -119,7 +119,7 @@ export default {
           "editUrl": "https://github.com/oslabs-beta/ohana"
         },
         "theme": {
-          "customCss": "/Users/fenris/Desktop/Codesmith/Docusaurus/website/src/css/custom.css"
+          "customCss": "/Users/andy/Dropbox/Andy/Documents/2021/Reference/Andy/Codesmith/CS Immersive/Program/Git/Projects/Production Project/Repos/Docs site repo/website/src/css/custom.css"
         }
       }
     ]

@@ -23,8 +23,8 @@
   "readingTime": 0.175,
   "truncated": false,
   "prevItem": {
-    "title": "Greetings!",
-    "permalink": "/blog/greetings"
+    "title": "Overview of Kubernetes",
+    "permalink": "/blog/introduction-to-kubernetes"
   },
   "nextItem": {
     "title": "Hello",

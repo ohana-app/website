@@ -4,10 +4,9 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #EE5FA7;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -16,39 +15,33 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 }
-
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
 .portraits{
   height: 10em;
   border-radius: 50%;
   margin: 0;
 }
-
 #meet-the-team {
   margin: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 #ohana-team {
   margin-top: 1em;
 }
-
 .team-cards {
   display: flex;
   align-items: center;
-  border: 1px solid rgb(102, 212, 189);
+  border: 1px solid #EE5FA7;
   border-radius: 1em;
   margin: 1em;
   padding: 1.5em;
@@ -56,7 +49,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   min-width: 24em;
   max-width: 30em;
 }
-
 @media (max-width: 150em) {
   #cards-container {
     max-width: 100em;
@@ -66,7 +58,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     overflow-x: scroll;
   }
 }
-
 @media (max-width: 80em) {
   #cards-container {
     max-width: 80em;
@@ -76,7 +67,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     overflow-x: scroll;
   }
 }
-
 @media (max-width: 50em) {
   #cards-container {
     max-width: 100em;
@@ -84,7 +74,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     display: grid;
     grid-template-columns: auto;
     overflow-x: scroll;
-    
   }
   .portraits{
     height: 10em;
@@ -95,26 +84,20 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     max-height: .5em;
   }
 }
-
-
 .team-cards:hover {
-  box-shadow: 0 0 5px rgb(102, 212, 189);
+  box-shadow: 0 0 5px #EE5FA7;
 }
-
 .name {
   margin: 0;
 }
-
 .info {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-
 .logos {
   max-height: 2em;
 }
-
 .logo-button:hover {
   background-color: rgb(102, 212, 189);
 }
