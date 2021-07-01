@@ -17,7 +17,11 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/getting-started/setup">
+<<<<<<< HEAD
             Get Started with Kubernetes!
+=======
+            Docusaurus Tutorial - 5min ⏱️
+>>>>>>> e094297b (fixed some build issues)
           </Link>
         </div>
       </div>

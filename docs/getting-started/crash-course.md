@@ -12,7 +12,7 @@ Utilize the default admin credentials located in the Database schema and create 
 ### Creating a Team and Users
 <!-- Thinking of adding these into a glossary; Please refer to the glossary for more details -->
 - Create a Team and Users to set up the structure of the Developer organization
-
+<div background-color="white">
 <TextField label='User Email' name='email'></TextField><br></br> 
 Should default to organizational email, which acts as a unique identifier, allowing them full access to the features available to create virual clusters and namespaces within their defined environments<br></br>
 <TextField type='password' label='User Password' name='password'></TextField><br></br>
@@ -22,7 +22,7 @@ Admin generated and can be reset by the User<br></br>
 <TextField label='Team Name' name='teamName'></TextField><br></br>
 Create different Teams based on their function; this field will determine which Clusters and Namespaces a User will have access to; Team Names are associated with a specific Team ID<br></br>
 <FormControlLabel control=<Checkbox/>label='Add as Admin'/><br></br>
-
+</div>
 Checking the box will allow the User full access to the app, which will unlock priveleges and accessibility panes within the app. The general rule of thumb is that DevOps will be Admins and Developers will be Users
 
 <!-- > **User Email** : Should default to organizational email, which acts as a unique identifier, allowing them full access to the features available to create virual clusters and namespaces within their defined environments
