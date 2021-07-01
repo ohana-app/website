@@ -6,7 +6,7 @@ id: setup
 
 ## Getting Started
 - Fork the codebase at: ```https://github.com/oslabs-beta/ohana```
-  - A containerized version exists here on docker hub: ```insert docker hub repository here```
+  <!-- - A containerized version exists here on docker hub: ```insert docker hub repository here``` -->
 - DevOps Admins handle the creation and maintenance of a new or existing Cluster
 - Admins can then create Users to onboard a new emploee or team member with specific access controls
 - A Dockerfile will be included but is up to the Admin to configure correctly.
@@ -55,20 +55,15 @@ gcloud iam service-accounts keys create [outputFile.json] --iam-account=[Iam-Acc
 ## Containerization
 We recommend running Ohana as a containerized application. Once you have configured the source files to fit your organization's needs, follow these steps to build and deploy the app as a container.
 
-- Connect your Database through the URI variable in ```models.js``` then refer to the ```Dockerfile``` and fill in the environment variables
+- Connect your Database through the URI variable in ```models.js``` then refer to the ```Dockerfile``` and fill in the ```ENV``` variables, which should also match with some of the fields in the ```outputFile.json```
 ```
-# Set arguments within the Dockerfile
-## Add gcloud service account here
-ARG gcloud_account= <newadmin@project_id.iam.gserviceaccount.com>
-
-## Add gcloud account key file path here
-ARG key_path= <outputFile.json>
-
-## Add GKE project_id here
-ARG project_id= <Ohana-1234>
-
-## Add GKE Cluster zone or region here
-ARG cluster_zone= <us-west1-a>
+ENV gcloud_acc=<newadmin@project_id.iam.gserviceaccount.com>
+ENV secret=<outputFile.json>
+RUN gcloud auth activate-service-account ${gcloud_acc}  --key-file=${secret}
+ENV project=<Ohana-1234>
+RUN gcloud config set project ${project}
+ENV cluster=<us-west-a>
+RUN gcloud container clusters get-credentials cluster-1 --zone=${cluster}
 ```
 - Fill out the Cluster Name
 ```
@@ -78,7 +73,7 @@ The rest of the Dockerfile will install other dependencies in a multi-stage buil
 - Installs Node
 - Installs Debian
 - Installs the gcloud SDK
-- Establishes and configures the working environment
+- Establishes the ```ENV``` variables and configures the working environment
 - Connects to GKE
 - Installs helm
 - Installs vCluster

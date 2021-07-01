@@ -42,11 +42,6 @@
           }
         ],
         "collapsed": true
-      },
-      {
-        "type": "link",
-        "label": "More Resources",
-        "href": "/docs/more-resources"
       }
     ]
   },
@@ -55,7 +50,6 @@
     "/docs/getting-started/crash-course": "tutorialSidebar",
     "/docs/getting-started/features": "tutorialSidebar",
     "/docs/getting-started/setup": "tutorialSidebar",
-    "/docs/more-resources": "tutorialSidebar",
     "/docs/ohana": "tutorialSidebar",
     "/docs/why-use-us": "tutorialSidebar"
   }
