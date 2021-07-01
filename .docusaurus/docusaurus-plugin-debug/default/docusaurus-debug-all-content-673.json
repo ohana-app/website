@@ -11,9 +11,9 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/lawrencehan/website/sidebars.js",
-          "contentPath": "/Users/lawrencehan/website/docs",
-          "contentPathLocalized": "/Users/lawrencehan/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/fenris/Desktop/Codesmith/Docusaurus/website/sidebars.js",
+          "contentPath": "/Users/fenris/Desktop/Codesmith/Docusaurus/website/docs",
+          "contentPathLocalized": "/Users/fenris/Desktop/Codesmith/Docusaurus/website/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "ohana",
           "sidebars": {
             "tutorialSidebar": [
@@ -255,42 +255,6 @@
     "default": {
       "blogPosts": [
         {
-          "id": "introducing-ohana",
-          "metadata": {
-            "permalink": "/blog/introducing-ohana",
-            "editUrl": "https://github.com/oslabs-beta/ohana/blog/introducing-ohana.md",
-            "source": "@site/blog/introducing-ohana.md",
-            "title": "Introducing Ohana",
-            "description": "Dreaming of better days managing your k8 clusters?",
-            "date": "2021-07-01T03:28:50.522Z",
-            "formattedDate": "July 1, 2021",
-            "tags": [
-              {
-                "label": "ohana",
-                "permalink": "/blog/tags/ohana"
-              },
-              {
-                "label": "kubernetes",
-                "permalink": "/blog/tags/kubernetes"
-              },
-              {
-                "label": "containers",
-                "permalink": "/blog/tags/containers"
-              },
-              {
-                "label": "docker",
-                "permalink": "/blog/tags/docker"
-              }
-            ],
-            "readingTime": 2.21,
-            "truncated": true,
-            "nextItem": {
-              "title": "Overview of Kubernetes",
-              "permalink": "/blog/introduction-to-kubernetes"
-            }
-          }
-        },
-        {
           "id": "introduction-to-kubernetes",
           "metadata": {
             "permalink": "/blog/introduction-to-kubernetes",
@@ -298,7 +262,7 @@
             "source": "@site/blog/introduction-kubernetes.md",
             "title": "Overview of Kubernetes",
             "description": "The Digital Age we are living through is an epoch characterized by the rapid shift from industry to information serving as the driving force behind the world's economies. With millions upon millions of gigabytes of data being exchanged by billions of users everyday, this age of information has become reliant on cloud computing to provide the infrastructure needed to handle requests and to store an exponentially increasing amount of data.",
-            "date": "2021-07-01T03:28:50.521Z",
+            "date": "2021-07-01T04:37:15.686Z",
             "formattedDate": "July 1, 2021",
             "tags": [
               {
@@ -320,9 +284,45 @@
             ],
             "readingTime": 4.25,
             "truncated": true,
-            "prevItem": {
+            "nextItem": {
               "title": "Introducing Ohana",
               "permalink": "/blog/introducing-ohana"
+            }
+          }
+        },
+        {
+          "id": "introducing-ohana",
+          "metadata": {
+            "permalink": "/blog/introducing-ohana",
+            "editUrl": "https://github.com/oslabs-beta/ohana/blog/introducing-ohana.md",
+            "source": "@site/blog/introducing-ohana.md",
+            "title": "Introducing Ohana",
+            "description": "Dreaming of better days managing your k8 clusters?",
+            "date": "2021-07-01T04:37:15.685Z",
+            "formattedDate": "July 1, 2021",
+            "tags": [
+              {
+                "label": "ohana",
+                "permalink": "/blog/tags/ohana"
+              },
+              {
+                "label": "kubernetes",
+                "permalink": "/blog/tags/kubernetes"
+              },
+              {
+                "label": "containers",
+                "permalink": "/blog/tags/containers"
+              },
+              {
+                "label": "docker",
+                "permalink": "/blog/tags/docker"
+              }
+            ],
+            "readingTime": 2.21,
+            "truncated": true,
+            "prevItem": {
+              "title": "Overview of Kubernetes",
+              "permalink": "/blog/introduction-to-kubernetes"
             }
           }
         }
@@ -341,42 +341,12 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "introducing-ohana",
-            "introduction-to-kubernetes"
+            "introduction-to-kubernetes",
+            "introducing-ohana"
           ]
         }
       ],
       "blogTags": {
-        "ohana": {
-          "name": "ohana",
-          "items": [
-            "introducing-ohana"
-          ],
-          "permalink": "/blog/tags/ohana"
-        },
-        "kubernetes": {
-          "name": "kubernetes",
-          "items": [
-            "introducing-ohana",
-            "introduction-to-kubernetes"
-          ],
-          "permalink": "/blog/tags/kubernetes"
-        },
-        "containers": {
-          "name": "containers",
-          "items": [
-            "introducing-ohana"
-          ],
-          "permalink": "/blog/tags/containers"
-        },
-        "docker": {
-          "name": "docker",
-          "items": [
-            "introducing-ohana",
-            "introduction-to-kubernetes"
-          ],
-          "permalink": "/blog/tags/docker"
-        },
         "cloud": {
           "name": "cloud",
           "items": [
@@ -390,6 +360,36 @@
             "introduction-to-kubernetes"
           ],
           "permalink": "/blog/tags/containerization"
+        },
+        "docker": {
+          "name": "docker",
+          "items": [
+            "introduction-to-kubernetes",
+            "introducing-ohana"
+          ],
+          "permalink": "/blog/tags/docker"
+        },
+        "kubernetes": {
+          "name": "kubernetes",
+          "items": [
+            "introduction-to-kubernetes",
+            "introducing-ohana"
+          ],
+          "permalink": "/blog/tags/kubernetes"
+        },
+        "ohana": {
+          "name": "ohana",
+          "items": [
+            "introducing-ohana"
+          ],
+          "permalink": "/blog/tags/ohana"
+        },
+        "containers": {
+          "name": "containers",
+          "items": [
+            "introducing-ohana"
+          ],
+          "permalink": "/blog/tags/containers"
         }
       },
       "blogTagsListPath": "/blog/tags"

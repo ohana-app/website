@@ -1,32 +1,4 @@
 {
-  "ohana": {
-    "allTagsPath": "/blog/tags",
-    "slug": "ohana",
-    "name": "ohana",
-    "count": 1,
-    "permalink": "/blog/tags/ohana"
-  },
-  "kubernetes": {
-    "allTagsPath": "/blog/tags",
-    "slug": "kubernetes",
-    "name": "kubernetes",
-    "count": 2,
-    "permalink": "/blog/tags/kubernetes"
-  },
-  "containers": {
-    "allTagsPath": "/blog/tags",
-    "slug": "containers",
-    "name": "containers",
-    "count": 1,
-    "permalink": "/blog/tags/containers"
-  },
-  "docker": {
-    "allTagsPath": "/blog/tags",
-    "slug": "docker",
-    "name": "docker",
-    "count": 2,
-    "permalink": "/blog/tags/docker"
-  },
   "cloud": {
     "allTagsPath": "/blog/tags",
     "slug": "cloud",
@@ -40,5 +12,33 @@
     "name": "containerization",
     "count": 1,
     "permalink": "/blog/tags/containerization"
+  },
+  "docker": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docker",
+    "name": "docker",
+    "count": 2,
+    "permalink": "/blog/tags/docker"
+  },
+  "kubernetes": {
+    "allTagsPath": "/blog/tags",
+    "slug": "kubernetes",
+    "name": "kubernetes",
+    "count": 2,
+    "permalink": "/blog/tags/kubernetes"
+  },
+  "ohana": {
+    "allTagsPath": "/blog/tags",
+    "slug": "ohana",
+    "name": "ohana",
+    "count": 1,
+    "permalink": "/blog/tags/ohana"
+  },
+  "containers": {
+    "allTagsPath": "/blog/tags",
+    "slug": "containers",
+    "name": "containers",
+    "count": 1,
+    "permalink": "/blog/tags/containers"
   }
 }
